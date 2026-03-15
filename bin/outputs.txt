@@ -1,0 +1,7 @@
+9
+6
+12
+b
+c
+9733102050+
+Completion took 1 ms

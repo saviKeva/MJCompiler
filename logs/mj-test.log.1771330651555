@@ -1,0 +1,3400 @@
+INFO  13:16:17,174 - Compiling source file: E:\FAKULTET\Cetvrta godina\PP1_predaja\test\test302.mj
+INFO  13:16:17,242 - #2 program
+INFO  13:16:17,242 - #46 test302
+INFO  13:16:17,242 - #5 const
+INFO  13:16:17,244 - #46 int
+INFO  13:16:17,244 - #46 jedan
+INFO  13:16:17,245 - #7 =
+INFO  13:16:17,245 - #47 1
+INFO  13:16:17,245 - #6 ;
+INFO  13:16:17,245 - #46 int
+INFO  13:16:17,245 - #46 i
+INFO  13:16:17,245 - #6 ;
+INFO  13:16:17,245 - #46 bool
+INFO  13:16:17,246 - #46 ibool
+INFO  13:16:17,246 - #6 ;
+INFO  13:16:17,246 - #46 int
+INFO  13:16:17,246 - #46 niz
+INFO  13:16:17,246 - #9 [
+INFO  13:16:17,246 - #10 ]
+INFO  13:16:17,246 - #6 ;
+INFO  13:16:17,246 - #3 {
+INFO  13:16:17,246 - #46 int
+INFO  13:16:17,248 - #46 sum
+INFO  13:16:17,248 - #12 (
+INFO  13:16:17,248 - #46 int
+INFO  13:16:17,248 - #46 z
+INFO  13:16:17,248 - #8 ,
+INFO  13:16:17,248 - #46 int
+INFO  13:16:17,248 - #46 d
+INFO  13:16:17,248 - #13 )
+INFO  13:16:17,249 - #3 {
+INFO  13:16:17,249 - #15 return
+INFO  13:16:17,250 - #46 z
+INFO  13:16:17,250 - #22 +
+INFO  13:16:17,252 - #46 d
+INFO  13:16:17,253 - #6 ;
+INFO  13:16:17,255 - #4 }
+INFO  13:16:17,255 - #46 int
+INFO  13:16:17,256 - #46 inkrement
+INFO  13:16:17,256 - #12 (
+INFO  13:16:17,257 - #46 int
+INFO  13:16:17,257 - #46 a
+INFO  13:16:17,257 - #8 ,
+INFO  13:16:17,257 - #46 int
+INFO  13:16:17,257 - #46 inc
+INFO  13:16:17,257 - #13 )
+INFO  13:16:17,257 - #46 int
+INFO  13:16:17,257 - #46 pom
+INFO  13:16:17,257 - #6 ;
+INFO  13:16:17,257 - #3 {
+INFO  13:16:17,257 - #29 if
+INFO  13:16:17,257 - #12 (
+INFO  13:16:17,257 - #46 inc
+INFO  13:16:17,257 - #38 ==
+INFO  13:16:17,257 - #46 jedan
+INFO  13:16:17,258 - #13 )
+INFO  13:16:17,258 - #46 pom
+INFO  13:16:17,258 - #7 =
+INFO  13:16:17,258 - #47 1
+INFO  13:16:17,260 - #6 ;
+INFO  13:16:17,260 - #30 else
+INFO  13:16:17,260 - #29 if
+INFO  13:16:17,261 - #12 (
+INFO  13:16:17,261 - #46 inc
+INFO  13:16:17,261 - #38 ==
+INFO  13:16:17,261 - #47 2
+INFO  13:16:17,261 - #13 )
+INFO  13:16:17,261 - #46 pom
+INFO  13:16:17,261 - #7 =
+INFO  13:16:17,261 - #46 a
+INFO  13:16:17,261 - #6 ;
+INFO  13:16:17,263 - #15 return
+INFO  13:16:17,263 - #46 sum
+INFO  13:16:17,263 - #12 (
+INFO  13:16:17,263 - #46 a
+INFO  13:16:17,264 - #8 ,
+INFO  13:16:17,264 - #46 pom
+INFO  13:16:17,264 - #13 )
+INFO  13:16:17,264 - #6 ;
+INFO  13:16:17,264 - #4 }
+INFO  13:16:17,264 - #46 bool
+INFO  13:16:17,265 - #46 verify
+INFO  13:16:17,265 - #12 (
+INFO  13:16:17,265 - #13 )
+INFO  13:16:17,265 - #3 {
+INFO  13:16:17,265 - #17 print
+INFO  13:16:17,265 - #12 (
+INFO  13:16:17,265 - #49 v
+INFO  13:16:17,265 - #13 )
+INFO  13:16:17,266 - #6 ;
+INFO  13:16:17,266 - #15 return
+INFO  13:16:17,266 - #48 0
+INFO  13:16:17,266 - #6 ;
+INFO  13:16:17,266 - #4 }
+INFO  13:16:17,266 - #11 void
+INFO  13:16:17,266 - #46 main
+INFO  13:16:17,266 - #12 (
+INFO  13:16:17,266 - #13 )
+INFO  13:16:17,266 - #3 {
+INFO  13:16:17,266 - #29 if
+INFO  13:16:17,266 - #12 (
+INFO  13:16:17,266 - #47 1
+INFO  13:16:17,266 - #39 !=
+INFO  13:16:17,266 - #47 1
+INFO  13:16:17,267 - #13 )
+INFO  13:16:17,267 - #17 print
+INFO  13:16:17,267 - #12 (
+INFO  13:16:17,267 - #20 -
+INFO  13:16:17,267 - #47 6
+INFO  13:16:17,267 - #13 )
+INFO  13:16:17,267 - #6 ;
+INFO  13:16:17,267 - #30 else
+INFO  13:16:17,268 - #17 print
+INFO  13:16:17,268 - #12 (
+INFO  13:16:17,268 - #47 0
+INFO  13:16:17,268 - #13 )
+INFO  13:16:17,268 - #6 ;
+INFO  13:16:17,268 - #46 ibool
+INFO  13:16:17,268 - #7 =
+INFO  13:16:17,268 - #48 0
+INFO  13:16:17,268 - #6 ;
+INFO  13:16:17,268 - #46 i
+INFO  13:16:17,268 - #7 =
+INFO  13:16:17,268 - #47 0
+INFO  13:16:17,268 - #6 ;
+INFO  13:16:17,268 - #31 for
+INFO  13:16:17,268 - #12 (
+INFO  13:16:17,270 - #46 i
+INFO  13:16:17,270 - #7 =
+INFO  13:16:17,270 - #47 0
+INFO  13:16:17,270 - #6 ;
+INFO  13:16:17,270 - #46 i
+INFO  13:16:17,271 - #42 <
+INFO  13:16:17,271 - #47 5
+INFO  13:16:17,272 - #6 ;
+INFO  13:16:17,272 - #46 i
+INFO  13:16:17,272 - #18 ++
+INFO  13:16:17,272 - #13 )
+INFO  13:16:17,273 - #3 {
+INFO  13:16:17,273 - #29 if
+INFO  13:16:17,273 - #12 (
+INFO  13:16:17,273 - #46 i
+INFO  13:16:17,273 - #38 ==
+INFO  13:16:17,273 - #47 2
+INFO  13:16:17,273 - #13 )
+INFO  13:16:17,273 - #46 ibool
+INFO  13:16:17,273 - #7 =
+INFO  13:16:17,273 - #48 1
+INFO  13:16:17,273 - #6 ;
+INFO  13:16:17,273 - #4 }
+INFO  13:16:17,273 - #29 if
+INFO  13:16:17,274 - #12 (
+INFO  13:16:17,274 - #46 ibool
+INFO  13:16:17,274 - #13 )
+INFO  13:16:17,274 - #29 if
+INFO  13:16:17,274 - #12 (
+INFO  13:16:17,274 - #46 i
+INFO  13:16:17,274 - #38 ==
+INFO  13:16:17,274 - #47 5
+INFO  13:16:17,274 - #13 )
+INFO  13:16:17,274 - #17 print
+INFO  13:16:17,274 - #12 (
+INFO  13:16:17,274 - #47 1
+INFO  13:16:17,274 - #13 )
+INFO  13:16:17,274 - #6 ;
+INFO  13:16:17,274 - #30 else
+INFO  13:16:17,274 - #17 print
+INFO  13:16:17,274 - #12 (
+INFO  13:16:17,274 - #20 -
+INFO  13:16:17,274 - #47 1
+INFO  13:16:17,274 - #13 )
+INFO  13:16:17,274 - #6 ;
+INFO  13:16:17,274 - #46 niz
+INFO  13:16:17,274 - #7 =
+INFO  13:16:17,275 - #21 new
+INFO  13:16:17,275 - #46 int
+INFO  13:16:17,275 - #9 [
+INFO  13:16:17,275 - #47 3
+INFO  13:16:17,275 - #10 ]
+INFO  13:16:17,275 - #6 ;
+INFO  13:16:17,275 - #46 niz
+INFO  13:16:17,275 - #9 [
+INFO  13:16:17,275 - #47 0
+INFO  13:16:17,275 - #10 ]
+INFO  13:16:17,275 - #7 =
+INFO  13:16:17,275 - #47 1
+INFO  13:16:17,275 - #6 ;
+INFO  13:16:17,275 - #46 niz
+INFO  13:16:17,275 - #9 [
+INFO  13:16:17,275 - #47 1
+INFO  13:16:17,275 - #10 ]
+INFO  13:16:17,275 - #7 =
+INFO  13:16:17,275 - #47 2
+INFO  13:16:17,275 - #6 ;
+INFO  13:16:17,275 - #46 niz
+INFO  13:16:17,275 - #9 [
+INFO  13:16:17,276 - #47 2
+INFO  13:16:17,276 - #10 ]
+INFO  13:16:17,276 - #7 =
+INFO  13:16:17,276 - #46 sum
+INFO  13:16:17,276 - #12 (
+INFO  13:16:17,276 - #46 niz
+INFO  13:16:17,276 - #9 [
+INFO  13:16:17,276 - #47 1
+INFO  13:16:17,276 - #10 ]
+INFO  13:16:17,277 - #8 ,
+INFO  13:16:17,277 - #46 niz
+INFO  13:16:17,277 - #9 [
+INFO  13:16:17,277 - #47 0
+INFO  13:16:17,277 - #10 ]
+INFO  13:16:17,277 - #13 )
+INFO  13:16:17,277 - #22 +
+INFO  13:16:17,277 - #47 1
+INFO  13:16:17,277 - #6 ;
+INFO  13:16:17,278 - #29 if
+INFO  13:16:17,278 - #12 (
+INFO  13:16:17,278 - #46 niz
+INFO  13:16:17,278 - #9 [
+INFO  13:16:17,278 - #47 2
+INFO  13:16:17,278 - #10 ]
+INFO  13:16:17,278 - #38 ==
+INFO  13:16:17,278 - #47 4
+INFO  13:16:17,278 - #36 ||
+INFO  13:16:17,278 - #46 verify
+INFO  13:16:17,278 - #12 (
+INFO  13:16:17,278 - #13 )
+INFO  13:16:17,278 - #13 )
+INFO  13:16:17,278 - #17 print
+INFO  13:16:17,278 - #12 (
+INFO  13:16:17,278 - #46 ord
+INFO  13:16:17,278 - #12 (
+INFO  13:16:17,278 - #49 A
+INFO  13:16:17,278 - #13 )
+INFO  13:16:17,278 - #13 )
+INFO  13:16:17,278 - #6 ;
+INFO  13:16:17,279 - #30 else
+INFO  13:16:17,279 - #17 print
+INFO  13:16:17,279 - #12 (
+INFO  13:16:17,279 - #46 ord
+INFO  13:16:17,279 - #12 (
+INFO  13:16:17,279 - #49 a
+INFO  13:16:17,279 - #13 )
+INFO  13:16:17,279 - #13 )
+INFO  13:16:17,279 - #6 ;
+INFO  13:16:17,279 - #17 print
+INFO  13:16:17,279 - #12 (
+INFO  13:16:17,279 - #46 eol
+INFO  13:16:17,279 - #13 )
+INFO  13:16:17,279 - #6 ;
+INFO  13:16:17,279 - #46 i
+INFO  13:16:17,279 - #7 =
+INFO  13:16:17,279 - #47 0
+INFO  13:16:17,279 - #6 ;
+INFO  13:16:17,279 - #31 for
+INFO  13:16:17,279 - #12 (
+INFO  13:16:17,279 - #6 ;
+INFO  13:16:17,281 - #46 i
+INFO  13:16:17,281 - #42 <
+INFO  13:16:17,281 - #47 10
+INFO  13:16:17,281 - #6 ;
+INFO  13:16:17,281 - #13 )
+INFO  13:16:17,282 - #3 {
+INFO  13:16:17,282 - #29 if
+INFO  13:16:17,282 - #12 (
+INFO  13:16:17,282 - #46 i
+INFO  13:16:17,282 - #38 ==
+INFO  13:16:17,282 - #47 3
+INFO  13:16:17,282 - #13 )
+INFO  13:16:17,282 - #3 {
+INFO  13:16:17,282 - #46 i
+INFO  13:16:17,282 - #18 ++
+INFO  13:16:17,282 - #6 ;
+INFO  13:16:17,282 - #35 continue
+INFO  13:16:17,282 - #6 ;
+INFO  13:16:17,282 - #4 }
+INFO  13:16:17,283 - #29 if
+INFO  13:16:17,283 - #12 (
+INFO  13:16:17,283 - #46 i
+INFO  13:16:17,283 - #38 ==
+INFO  13:16:17,283 - #47 4
+INFO  13:16:17,283 - #13 )
+INFO  13:16:17,283 - #34 break
+INFO  13:16:17,283 - #6 ;
+INFO  13:16:17,283 - #46 i
+INFO  13:16:17,284 - #7 =
+INFO  13:16:17,284 - #46 inkrement
+INFO  13:16:17,284 - #12 (
+INFO  13:16:17,285 - #46 i
+INFO  13:16:17,285 - #8 ,
+INFO  13:16:17,285 - #47 1
+INFO  13:16:17,285 - #13 )
+INFO  13:16:17,285 - #6 ;
+INFO  13:16:17,285 - #4 }
+INFO  13:16:17,285 - #29 if
+INFO  13:16:17,285 - #12 (
+INFO  13:16:17,285 - #46 i
+INFO  13:16:17,285 - #38 ==
+INFO  13:16:17,285 - #47 3
+INFO  13:16:17,285 - #37 &&
+INFO  13:16:17,285 - #46 verify
+INFO  13:16:17,285 - #12 (
+INFO  13:16:17,285 - #13 )
+INFO  13:16:17,285 - #13 )
+INFO  13:16:17,285 - #17 print
+INFO  13:16:17,285 - #12 (
+INFO  13:16:17,285 - #47 4
+INFO  13:16:17,285 - #13 )
+INFO  13:16:17,285 - #6 ;
+INFO  13:16:17,285 - #30 else
+INFO  13:16:17,285 - #17 print
+INFO  13:16:17,285 - #12 (
+INFO  13:16:17,285 - #20 -
+INFO  13:16:17,285 - #47 4
+INFO  13:16:17,285 - #13 )
+INFO  13:16:17,285 - #6 ;
+INFO  13:16:17,285 - #16 read
+INFO  13:16:17,285 - #12 (
+INFO  13:16:17,286 - #46 niz
+INFO  13:16:17,286 - #9 [
+INFO  13:16:17,286 - #47 0
+INFO  13:16:17,286 - #10 ]
+INFO  13:16:17,286 - #13 )
+INFO  13:16:17,286 - #6 ;
+INFO  13:16:17,286 - #16 read
+INFO  13:16:17,286 - #12 (
+INFO  13:16:17,286 - #46 niz
+INFO  13:16:17,286 - #9 [
+INFO  13:16:17,286 - #47 1
+INFO  13:16:17,286 - #10 ]
+INFO  13:16:17,286 - #13 )
+INFO  13:16:17,287 - #6 ;
+INFO  13:16:17,287 - #16 read
+INFO  13:16:17,287 - #12 (
+INFO  13:16:17,287 - #46 niz
+INFO  13:16:17,287 - #9 [
+INFO  13:16:17,287 - #47 2
+INFO  13:16:17,287 - #10 ]
+INFO  13:16:17,287 - #13 )
+INFO  13:16:17,287 - #6 ;
+INFO  13:16:17,287 - #17 print
+INFO  13:16:17,287 - #12 (
+INFO  13:16:17,287 - #46 eol
+INFO  13:16:17,287 - #13 )
+INFO  13:16:17,287 - #6 ;
+INFO  13:16:17,287 - #17 print
+INFO  13:16:17,287 - #12 (
+INFO  13:16:17,287 - #46 sum
+INFO  13:16:17,287 - #12 (
+INFO  13:16:17,287 - #46 sum
+INFO  13:16:17,287 - #12 (
+INFO  13:16:17,287 - #46 niz
+INFO  13:16:17,287 - #9 [
+INFO  13:16:17,288 - #47 0
+INFO  13:16:17,288 - #10 ]
+INFO  13:16:17,288 - #8 ,
+INFO  13:16:17,288 - #46 niz
+INFO  13:16:17,288 - #9 [
+INFO  13:16:17,288 - #47 1
+INFO  13:16:17,288 - #10 ]
+INFO  13:16:17,288 - #13 )
+INFO  13:16:17,288 - #8 ,
+INFO  13:16:17,288 - #46 niz
+INFO  13:16:17,288 - #9 [
+INFO  13:16:17,288 - #47 2
+INFO  13:16:17,288 - #10 ]
+INFO  13:16:17,288 - #13 )
+INFO  13:16:17,288 - #13 )
+INFO  13:16:17,288 - #6 ;
+INFO  13:16:17,288 - #31 for
+INFO  13:16:17,288 - #12 (
+INFO  13:16:17,288 - #46 i
+INFO  13:16:17,288 - #7 =
+INFO  13:16:17,288 - #47 0
+INFO  13:16:17,288 - #6 ;
+INFO  13:16:17,288 - #46 i
+INFO  13:16:17,288 - #42 <
+INFO  13:16:17,288 - #46 niz
+INFO  13:16:17,288 - #26 .
+INFO  13:16:17,288 - #45 length
+INFO  13:16:17,288 - #6 ;
+INFO  13:16:17,289 - #46 i
+INFO  13:16:17,289 - #18 ++
+INFO  13:16:17,290 - #13 )
+INFO  13:16:17,290 - #3 {
+INFO  13:16:17,290 - #17 print
+INFO  13:16:17,290 - #12 (
+INFO  13:16:17,290 - #46 i
+INFO  13:16:17,290 - #13 )
+INFO  13:16:17,290 - #6 ;
+INFO  13:16:17,290 - #4 }
+INFO  13:16:17,290 - #17 print
+INFO  13:16:17,290 - #12 (
+INFO  13:16:17,290 - #46 eol
+INFO  13:16:17,290 - #13 )
+INFO  13:16:17,290 - #6 ;
+INFO  13:16:17,290 - #17 print
+INFO  13:16:17,290 - #12 (
+INFO  13:16:17,290 - #46 inkrement
+INFO  13:16:17,290 - #12 (
+INFO  13:16:17,290 - #46 niz
+INFO  13:16:17,290 - #9 [
+INFO  13:16:17,290 - #47 2
+INFO  13:16:17,290 - #10 ]
+INFO  13:16:17,290 - #8 ,
+INFO  13:16:17,290 - #47 2
+INFO  13:16:17,290 - #13 )
+INFO  13:16:17,290 - #13 )
+INFO  13:16:17,290 - #6 ;
+INFO  13:16:17,290 - #17 print
+INFO  13:16:17,290 - #12 (
+INFO  13:16:17,290 - #46 verify
+INFO  13:16:17,290 - #12 (
+INFO  13:16:17,290 - #13 )
+INFO  13:16:17,290 - #44 ?
+INFO  13:16:17,291 - #49 t
+INFO  13:16:17,291 - #14 :
+INFO  13:16:17,292 - #49 f
+INFO  13:16:17,292 - #13 )
+INFO  13:16:17,292 - #6 ;
+INFO  13:16:17,292 - #31 for
+INFO  13:16:17,293 - #12 (
+INFO  13:16:17,293 - #46 i
+INFO  13:16:17,293 - #7 =
+INFO  13:16:17,293 - #47 0
+INFO  13:16:17,293 - #6 ;
+INFO  13:16:17,293 - #46 i
+INFO  13:16:17,293 - #42 <
+INFO  13:16:17,293 - #47 10
+INFO  13:16:17,293 - #6 ;
+INFO  13:16:17,293 - #46 i
+INFO  13:16:17,293 - #18 ++
+INFO  13:16:17,293 - #13 )
+INFO  13:16:17,293 - #3 {
+INFO  13:16:17,293 - #32 switch
+INFO  13:16:17,293 - #12 (
+INFO  13:16:17,293 - #46 i
+INFO  13:16:17,293 - #22 +
+INFO  13:16:17,293 - #47 1
+INFO  13:16:17,293 - #13 )
+INFO  13:16:17,293 - #3 {
+INFO  13:16:17,294 - #33 case
+INFO  13:16:17,294 - #47 1
+INFO  13:16:17,295 - #14 :
+INFO  13:16:17,295 - #17 print
+INFO  13:16:17,295 - #12 (
+INFO  13:16:17,295 - #47 1
+INFO  13:16:17,295 - #13 )
+INFO  13:16:17,295 - #6 ;
+INFO  13:16:17,295 - #34 break
+INFO  13:16:17,295 - #6 ;
+INFO  13:16:17,295 - #33 case
+INFO  13:16:17,295 - #47 3
+INFO  13:16:17,295 - #14 :
+INFO  13:16:17,295 - #17 print
+INFO  13:16:17,295 - #12 (
+INFO  13:16:17,295 - #47 3
+INFO  13:16:17,295 - #13 )
+INFO  13:16:17,295 - #6 ;
+INFO  13:16:17,295 - #33 case
+INFO  13:16:17,295 - #47 2
+INFO  13:16:17,295 - #14 :
+INFO  13:16:17,295 - #17 print
+INFO  13:16:17,295 - #12 (
+INFO  13:16:17,295 - #47 2
+INFO  13:16:17,295 - #13 )
+INFO  13:16:17,295 - #6 ;
+INFO  13:16:17,295 - #34 break
+INFO  13:16:17,295 - #6 ;
+INFO  13:16:17,295 - #33 case
+INFO  13:16:17,295 - #47 5
+INFO  13:16:17,295 - #14 :
+INFO  13:16:17,295 - #17 print
+INFO  13:16:17,295 - #12 (
+INFO  13:16:17,295 - #47 5
+INFO  13:16:17,295 - #13 )
+INFO  13:16:17,295 - #6 ;
+INFO  13:16:17,295 - #46 i
+INFO  13:16:17,295 - #7 =
+INFO  13:16:17,295 - #46 i
+INFO  13:16:17,295 - #22 +
+INFO  13:16:17,295 - #47 2
+INFO  13:16:17,295 - #6 ;
+INFO  13:16:17,295 - #35 continue
+INFO  13:16:17,296 - #6 ;
+INFO  13:16:17,296 - #33 case
+INFO  13:16:17,296 - #47 6
+INFO  13:16:17,296 - #14 :
+INFO  13:16:17,296 - #17 print
+INFO  13:16:17,296 - #12 (
+INFO  13:16:17,296 - #47 6
+INFO  13:16:17,296 - #13 )
+INFO  13:16:17,296 - #6 ;
+INFO  13:16:17,296 - #33 case
+INFO  13:16:17,296 - #47 9
+INFO  13:16:17,296 - #14 :
+INFO  13:16:17,296 - #17 print
+INFO  13:16:17,296 - #12 (
+INFO  13:16:17,296 - #47 9
+INFO  13:16:17,296 - #13 )
+INFO  13:16:17,296 - #6 ;
+INFO  13:16:17,296 - #4 }
+INFO  13:16:17,296 - #17 print
+INFO  13:16:17,296 - #12 (
+INFO  13:16:17,296 - #46 eol
+INFO  13:16:17,296 - #13 )
+INFO  13:16:17,296 - #6 ;
+INFO  13:16:17,296 - #4 }
+INFO  13:16:17,296 - #4 }
+INFO  13:16:17,296 - #4 }
+INFO  13:16:17,325 - Program(
+  ProgramName(
+   test302
+  ) [ProgramName]
+  DeclarationList_Part(
+    DeclarationList_Part(
+      DeclarationList_Part(
+        DeclarationList_Part(
+          DeclarationList_Empty(
+          ) [DeclarationList_Empty]
+          DeclPart_Const(
+            ConstDecl_OK(
+              Type(
+               int
+              ) [Type]
+              ConstList_Single(
+                Constant_Number(
+                 jedan
+                 1
+                ) [Constant_Number]
+              ) [ConstList_Single]
+            ) [ConstDecl_OK]
+          ) [DeclPart_Const]
+        ) [DeclarationList_Part]
+        DeclPart_Var(
+          VarDecl_OK(
+            Type(
+             int
+            ) [Type]
+            VarList_Single(
+              VarPart_Scalar(
+               i
+              ) [VarPart_Scalar]
+            ) [VarList_Single]
+          ) [VarDecl_OK]
+        ) [DeclPart_Var]
+      ) [DeclarationList_Part]
+      DeclPart_Var(
+        VarDecl_OK(
+          Type(
+           bool
+          ) [Type]
+          VarList_Single(
+            VarPart_Scalar(
+             ibool
+            ) [VarPart_Scalar]
+          ) [VarList_Single]
+        ) [VarDecl_OK]
+      ) [DeclPart_Var]
+    ) [DeclarationList_Part]
+    DeclPart_Var(
+      VarDecl_OK(
+        Type(
+         int
+        ) [Type]
+        VarList_Single(
+          VarPart_Array(
+           niz
+          ) [VarPart_Array]
+        ) [VarList_Single]
+      ) [VarDecl_OK]
+    ) [DeclPart_Var]
+  ) [DeclarationList_Part]
+  MethodDeclList_More(
+    MethodDeclList_More(
+      MethodDeclList_More(
+        MethodDeclList_More(
+          MethodDeclList_Empty(
+          ) [MethodDeclList_Empty]
+          MethodDecl(
+            TypeMethodName(
+              Type(
+               int
+              ) [Type]
+             sum
+            ) [TypeMethodName]
+            FormalParameters_List(
+              FormParamList_More(
+                FormParamList_Single(
+                  FormParam_Scalar(
+                    Type(
+                     int
+                    ) [Type]
+                   z
+                  ) [FormParam_Scalar]
+                ) [FormParamList_Single]
+                FormParam_Scalar(
+                  Type(
+                   int
+                  ) [Type]
+                 d
+                ) [FormParam_Scalar]
+              ) [FormParamList_More]
+            ) [FormalParameters_List]
+            VarDeclListRec_Empty(
+            ) [VarDeclListRec_Empty]
+            StatementList_More(
+              StatementList_Empty(
+              ) [StatementList_Empty]
+              Statement_ReturnExpr(
+                Expr_BasicExpr(
+                  Condition(
+                    Condition_Term(
+                      CondTerm(
+                        CondFList_Fact(
+                          CondFact_Basic(
+                            BasicExpr_Addop(
+                              BasicExpr_Term(
+                                Term_Single(
+                                  Factor_Design(
+                                    Designator(
+                                      DesignatorName(
+                                       z
+                                      ) [DesignatorName]
+                                      DesignatorMore_Empty(
+                                      ) [DesignatorMore_Empty]
+                                    ) [Designator]
+                                  ) [Factor_Design]
+                                ) [Term_Single]
+                              ) [BasicExpr_Term]
+                              Addop_Plus(
+                              ) [Addop_Plus]
+                              Term_Single(
+                                Factor_Design(
+                                  Designator(
+                                    DesignatorName(
+                                     d
+                                    ) [DesignatorName]
+                                    DesignatorMore_Empty(
+                                    ) [DesignatorMore_Empty]
+                                  ) [Designator]
+                                ) [Factor_Design]
+                              ) [Term_Single]
+                            ) [BasicExpr_Addop]
+                          ) [CondFact_Basic]
+                        ) [CondFList_Fact]
+                      ) [CondTerm]
+                    ) [Condition_Term]
+                  ) [Condition]
+                ) [Expr_BasicExpr]
+              ) [Statement_ReturnExpr]
+            ) [StatementList_More]
+          ) [MethodDecl]
+        ) [MethodDeclList_More]
+        MethodDecl(
+          TypeMethodName(
+            Type(
+             int
+            ) [Type]
+           inkrement
+          ) [TypeMethodName]
+          FormalParameters_List(
+            FormParamList_More(
+              FormParamList_Single(
+                FormParam_Scalar(
+                  Type(
+                   int
+                  ) [Type]
+                 a
+                ) [FormParam_Scalar]
+              ) [FormParamList_Single]
+              FormParam_Scalar(
+                Type(
+                 int
+                ) [Type]
+               inc
+              ) [FormParam_Scalar]
+            ) [FormParamList_More]
+          ) [FormalParameters_List]
+          VarDeclListRec_More(
+            VarDeclListRec_Empty(
+            ) [VarDeclListRec_Empty]
+            VarDecl_OK(
+              Type(
+               int
+              ) [Type]
+              VarList_Single(
+                VarPart_Scalar(
+                 pom
+                ) [VarPart_Scalar]
+              ) [VarList_Single]
+            ) [VarDecl_OK]
+          ) [VarDeclListRec_More]
+          StatementList_More(
+            StatementList_More(
+              StatementList_Empty(
+              ) [StatementList_Empty]
+              Statement_IfElse(
+                Condition(
+                  Condition_Term(
+                    CondTerm(
+                      CondFList_Fact(
+                        CondFact_Relop(
+                          BasicExpr_Term(
+                            Term_Single(
+                              Factor_Design(
+                                Designator(
+                                  DesignatorName(
+                                   inc
+                                  ) [DesignatorName]
+                                  DesignatorMore_Empty(
+                                  ) [DesignatorMore_Empty]
+                                ) [Designator]
+                              ) [Factor_Design]
+                            ) [Term_Single]
+                          ) [BasicExpr_Term]
+                          Relop_Equal(
+                          ) [Relop_Equal]
+                          BasicExpr_Term(
+                            Term_Single(
+                              Factor_Design(
+                                Designator(
+                                  DesignatorName(
+                                   jedan
+                                  ) [DesignatorName]
+                                  DesignatorMore_Empty(
+                                  ) [DesignatorMore_Empty]
+                                ) [Designator]
+                              ) [Factor_Design]
+                            ) [Term_Single]
+                          ) [BasicExpr_Term]
+                        ) [CondFact_Relop]
+                      ) [CondFList_Fact]
+                    ) [CondTerm]
+                  ) [Condition_Term]
+                ) [Condition]
+                Statement_Designator(
+                  DesignatorStatement_Assign(
+                    Designator(
+                      DesignatorName(
+                       pom
+                      ) [DesignatorName]
+                      DesignatorMore_Empty(
+                      ) [DesignatorMore_Empty]
+                    ) [Designator]
+                    Assignop_Assign(
+                    ) [Assignop_Assign]
+                    Expr_BasicExpr(
+                      Condition(
+                        Condition_Term(
+                          CondTerm(
+                            CondFList_Fact(
+                              CondFact_Basic(
+                                BasicExpr_Term(
+                                  Term_Single(
+                                    Factor_Num(
+                                     1
+                                    ) [Factor_Num]
+                                  ) [Term_Single]
+                                ) [BasicExpr_Term]
+                              ) [CondFact_Basic]
+                            ) [CondFList_Fact]
+                          ) [CondTerm]
+                        ) [Condition_Term]
+                      ) [Condition]
+                    ) [Expr_BasicExpr]
+                  ) [DesignatorStatement_Assign]
+                ) [Statement_Designator]
+                Else(
+                ) [Else]
+                Statement_If(
+                  Condition(
+                    Condition_Term(
+                      CondTerm(
+                        CondFList_Fact(
+                          CondFact_Relop(
+                            BasicExpr_Term(
+                              Term_Single(
+                                Factor_Design(
+                                  Designator(
+                                    DesignatorName(
+                                     inc
+                                    ) [DesignatorName]
+                                    DesignatorMore_Empty(
+                                    ) [DesignatorMore_Empty]
+                                  ) [Designator]
+                                ) [Factor_Design]
+                              ) [Term_Single]
+                            ) [BasicExpr_Term]
+                            Relop_Equal(
+                            ) [Relop_Equal]
+                            BasicExpr_Term(
+                              Term_Single(
+                                Factor_Num(
+                                 2
+                                ) [Factor_Num]
+                              ) [Term_Single]
+                            ) [BasicExpr_Term]
+                          ) [CondFact_Relop]
+                        ) [CondFList_Fact]
+                      ) [CondTerm]
+                    ) [Condition_Term]
+                  ) [Condition]
+                  Statement_Designator(
+                    DesignatorStatement_Assign(
+                      Designator(
+                        DesignatorName(
+                         pom
+                        ) [DesignatorName]
+                        DesignatorMore_Empty(
+                        ) [DesignatorMore_Empty]
+                      ) [Designator]
+                      Assignop_Assign(
+                      ) [Assignop_Assign]
+                      Expr_BasicExpr(
+                        Condition(
+                          Condition_Term(
+                            CondTerm(
+                              CondFList_Fact(
+                                CondFact_Basic(
+                                  BasicExpr_Term(
+                                    Term_Single(
+                                      Factor_Design(
+                                        Designator(
+                                          DesignatorName(
+                                           a
+                                          ) [DesignatorName]
+                                          DesignatorMore_Empty(
+                                          ) [DesignatorMore_Empty]
+                                        ) [Designator]
+                                      ) [Factor_Design]
+                                    ) [Term_Single]
+                                  ) [BasicExpr_Term]
+                                ) [CondFact_Basic]
+                              ) [CondFList_Fact]
+                            ) [CondTerm]
+                          ) [Condition_Term]
+                        ) [Condition]
+                      ) [Expr_BasicExpr]
+                    ) [DesignatorStatement_Assign]
+                  ) [Statement_Designator]
+                ) [Statement_If]
+              ) [Statement_IfElse]
+            ) [StatementList_More]
+            Statement_ReturnExpr(
+              Expr_BasicExpr(
+                Condition(
+                  Condition_Term(
+                    CondTerm(
+                      CondFList_Fact(
+                        CondFact_Basic(
+                          BasicExpr_Term(
+                            Term_Single(
+                              Factor_ActPars(
+                                Designator(
+                                  DesignatorName(
+                                   sum
+                                  ) [DesignatorName]
+                                  DesignatorMore_Empty(
+                                  ) [DesignatorMore_Empty]
+                                ) [Designator]
+                                ActParameters(
+                                  ActParsBegin(
+                                  ) [ActParsBegin]
+                                  ActParamList(
+                                    SingleActParam(
+                                      Expr_BasicExpr(
+                                        Condition(
+                                          Condition_Term(
+                                            CondTerm(
+                                              CondFList_Fact(
+                                                CondFact_Basic(
+                                                  BasicExpr_Term(
+                                                    Term_Single(
+                                                      Factor_Design(
+                                                        Designator(
+                                                          DesignatorName(
+                                                           a
+                                                          ) [DesignatorName]
+                                                          DesignatorMore_Empty(
+                                                          ) [DesignatorMore_Empty]
+                                                        ) [Designator]
+                                                      ) [Factor_Design]
+                                                    ) [Term_Single]
+                                                  ) [BasicExpr_Term]
+                                                ) [CondFact_Basic]
+                                              ) [CondFList_Fact]
+                                            ) [CondTerm]
+                                          ) [Condition_Term]
+                                        ) [Condition]
+                                      ) [Expr_BasicExpr]
+                                    ) [SingleActParam]
+                                    Expr_BasicExpr(
+                                      Condition(
+                                        Condition_Term(
+                                          CondTerm(
+                                            CondFList_Fact(
+                                              CondFact_Basic(
+                                                BasicExpr_Term(
+                                                  Term_Single(
+                                                    Factor_Design(
+                                                      Designator(
+                                                        DesignatorName(
+                                                         pom
+                                                        ) [DesignatorName]
+                                                        DesignatorMore_Empty(
+                                                        ) [DesignatorMore_Empty]
+                                                      ) [Designator]
+                                                    ) [Factor_Design]
+                                                  ) [Term_Single]
+                                                ) [BasicExpr_Term]
+                                              ) [CondFact_Basic]
+                                            ) [CondFList_Fact]
+                                          ) [CondTerm]
+                                        ) [Condition_Term]
+                                      ) [Condition]
+                                    ) [Expr_BasicExpr]
+                                  ) [ActParamList]
+                                ) [ActParameters]
+                              ) [Factor_ActPars]
+                            ) [Term_Single]
+                          ) [BasicExpr_Term]
+                        ) [CondFact_Basic]
+                      ) [CondFList_Fact]
+                    ) [CondTerm]
+                  ) [Condition_Term]
+                ) [Condition]
+              ) [Expr_BasicExpr]
+            ) [Statement_ReturnExpr]
+          ) [StatementList_More]
+        ) [MethodDecl]
+      ) [MethodDeclList_More]
+      MethodDecl(
+        TypeMethodName(
+          Type(
+           bool
+          ) [Type]
+         verify
+        ) [TypeMethodName]
+        FormalParameters_Empty(
+        ) [FormalParameters_Empty]
+        VarDeclListRec_Empty(
+        ) [VarDeclListRec_Empty]
+        StatementList_More(
+          StatementList_More(
+            StatementList_Empty(
+            ) [StatementList_Empty]
+            Statement_Print(
+              Expr_BasicExpr(
+                Condition(
+                  Condition_Term(
+                    CondTerm(
+                      CondFList_Fact(
+                        CondFact_Basic(
+                          BasicExpr_Term(
+                            Term_Single(
+                              Factor_Char(
+                               v
+                              ) [Factor_Char]
+                            ) [Term_Single]
+                          ) [BasicExpr_Term]
+                        ) [CondFact_Basic]
+                      ) [CondFList_Fact]
+                    ) [CondTerm]
+                  ) [Condition_Term]
+                ) [Condition]
+              ) [Expr_BasicExpr]
+            ) [Statement_Print]
+          ) [StatementList_More]
+          Statement_ReturnExpr(
+            Expr_BasicExpr(
+              Condition(
+                Condition_Term(
+                  CondTerm(
+                    CondFList_Fact(
+                      CondFact_Basic(
+                        BasicExpr_Term(
+                          Term_Single(
+                            Factor_Bool(
+                             0
+                            ) [Factor_Bool]
+                          ) [Term_Single]
+                        ) [BasicExpr_Term]
+                      ) [CondFact_Basic]
+                    ) [CondFList_Fact]
+                  ) [CondTerm]
+                ) [Condition_Term]
+              ) [Condition]
+            ) [Expr_BasicExpr]
+          ) [Statement_ReturnExpr]
+        ) [StatementList_More]
+      ) [MethodDecl]
+    ) [MethodDeclList_More]
+    MethodDecl(
+      VoidMethodName(
+       main
+      ) [VoidMethodName]
+      FormalParameters_Empty(
+      ) [FormalParameters_Empty]
+      VarDeclListRec_Empty(
+      ) [VarDeclListRec_Empty]
+      StatementList_More(
+        StatementList_More(
+          StatementList_More(
+            StatementList_More(
+              StatementList_More(
+                StatementList_More(
+                  StatementList_More(
+                    StatementList_More(
+                      StatementList_More(
+                        StatementList_More(
+                          StatementList_More(
+                            StatementList_More(
+                              StatementList_More(
+                                StatementList_More(
+                                  StatementList_More(
+                                    StatementList_More(
+                                      StatementList_More(
+                                        StatementList_More(
+                                          StatementList_More(
+                                            StatementList_More(
+                                              StatementList_More(
+                                                StatementList_More(
+                                                  StatementList_More(
+                                                    StatementList_More(
+                                                      StatementList_Empty(
+                                                      ) [StatementList_Empty]
+                                                      Statement_IfElse(
+                                                        Condition(
+                                                          Condition_Term(
+                                                            CondTerm(
+                                                              CondFList_Fact(
+                                                                CondFact_Relop(
+                                                                  BasicExpr_Term(
+                                                                    Term_Single(
+                                                                      Factor_Num(
+                                                                       1
+                                                                      ) [Factor_Num]
+                                                                    ) [Term_Single]
+                                                                  ) [BasicExpr_Term]
+                                                                  Relop_NotEqual(
+                                                                  ) [Relop_NotEqual]
+                                                                  BasicExpr_Term(
+                                                                    Term_Single(
+                                                                      Factor_Num(
+                                                                       1
+                                                                      ) [Factor_Num]
+                                                                    ) [Term_Single]
+                                                                  ) [BasicExpr_Term]
+                                                                ) [CondFact_Relop]
+                                                              ) [CondFList_Fact]
+                                                            ) [CondTerm]
+                                                          ) [Condition_Term]
+                                                        ) [Condition]
+                                                        Statement_Print(
+                                                          Expr_BasicExpr(
+                                                            Condition(
+                                                              Condition_Term(
+                                                                CondTerm(
+                                                                  CondFList_Fact(
+                                                                    CondFact_Basic(
+                                                                      BasicExpr_Unary(
+                                                                        Term_Single(
+                                                                          Factor_Num(
+                                                                           6
+                                                                          ) [Factor_Num]
+                                                                        ) [Term_Single]
+                                                                      ) [BasicExpr_Unary]
+                                                                    ) [CondFact_Basic]
+                                                                  ) [CondFList_Fact]
+                                                                ) [CondTerm]
+                                                              ) [Condition_Term]
+                                                            ) [Condition]
+                                                          ) [Expr_BasicExpr]
+                                                        ) [Statement_Print]
+                                                        Else(
+                                                        ) [Else]
+                                                        Statement_Print(
+                                                          Expr_BasicExpr(
+                                                            Condition(
+                                                              Condition_Term(
+                                                                CondTerm(
+                                                                  CondFList_Fact(
+                                                                    CondFact_Basic(
+                                                                      BasicExpr_Term(
+                                                                        Term_Single(
+                                                                          Factor_Num(
+                                                                           0
+                                                                          ) [Factor_Num]
+                                                                        ) [Term_Single]
+                                                                      ) [BasicExpr_Term]
+                                                                    ) [CondFact_Basic]
+                                                                  ) [CondFList_Fact]
+                                                                ) [CondTerm]
+                                                              ) [Condition_Term]
+                                                            ) [Condition]
+                                                          ) [Expr_BasicExpr]
+                                                        ) [Statement_Print]
+                                                      ) [Statement_IfElse]
+                                                    ) [StatementList_More]
+                                                    Statement_Designator(
+                                                      DesignatorStatement_Assign(
+                                                        Designator(
+                                                          DesignatorName(
+                                                           ibool
+                                                          ) [DesignatorName]
+                                                          DesignatorMore_Empty(
+                                                          ) [DesignatorMore_Empty]
+                                                        ) [Designator]
+                                                        Assignop_Assign(
+                                                        ) [Assignop_Assign]
+                                                        Expr_BasicExpr(
+                                                          Condition(
+                                                            Condition_Term(
+                                                              CondTerm(
+                                                                CondFList_Fact(
+                                                                  CondFact_Basic(
+                                                                    BasicExpr_Term(
+                                                                      Term_Single(
+                                                                        Factor_Bool(
+                                                                         0
+                                                                        ) [Factor_Bool]
+                                                                      ) [Term_Single]
+                                                                    ) [BasicExpr_Term]
+                                                                  ) [CondFact_Basic]
+                                                                ) [CondFList_Fact]
+                                                              ) [CondTerm]
+                                                            ) [Condition_Term]
+                                                          ) [Condition]
+                                                        ) [Expr_BasicExpr]
+                                                      ) [DesignatorStatement_Assign]
+                                                    ) [Statement_Designator]
+                                                  ) [StatementList_More]
+                                                  Statement_Designator(
+                                                    DesignatorStatement_Assign(
+                                                      Designator(
+                                                        DesignatorName(
+                                                         i
+                                                        ) [DesignatorName]
+                                                        DesignatorMore_Empty(
+                                                        ) [DesignatorMore_Empty]
+                                                      ) [Designator]
+                                                      Assignop_Assign(
+                                                      ) [Assignop_Assign]
+                                                      Expr_BasicExpr(
+                                                        Condition(
+                                                          Condition_Term(
+                                                            CondTerm(
+                                                              CondFList_Fact(
+                                                                CondFact_Basic(
+                                                                  BasicExpr_Term(
+                                                                    Term_Single(
+                                                                      Factor_Num(
+                                                                       0
+                                                                      ) [Factor_Num]
+                                                                    ) [Term_Single]
+                                                                  ) [BasicExpr_Term]
+                                                                ) [CondFact_Basic]
+                                                              ) [CondFList_Fact]
+                                                            ) [CondTerm]
+                                                          ) [Condition_Term]
+                                                        ) [Condition]
+                                                      ) [Expr_BasicExpr]
+                                                    ) [DesignatorStatement_Assign]
+                                                  ) [Statement_Designator]
+                                                ) [StatementList_More]
+                                                Statement_For(
+                                                  ForTerm(
+                                                  ) [ForTerm]
+                                                  ForInit_Yes(
+                                                    DesignatorStatement_Assign(
+                                                      Designator(
+                                                        DesignatorName(
+                                                         i
+                                                        ) [DesignatorName]
+                                                        DesignatorMore_Empty(
+                                                        ) [DesignatorMore_Empty]
+                                                      ) [Designator]
+                                                      Assignop_Assign(
+                                                      ) [Assignop_Assign]
+                                                      Expr_BasicExpr(
+                                                        Condition(
+                                                          Condition_Term(
+                                                            CondTerm(
+                                                              CondFList_Fact(
+                                                                CondFact_Basic(
+                                                                  BasicExpr_Term(
+                                                                    Term_Single(
+                                                                      Factor_Num(
+                                                                       0
+                                                                      ) [Factor_Num]
+                                                                    ) [Term_Single]
+                                                                  ) [BasicExpr_Term]
+                                                                ) [CondFact_Basic]
+                                                              ) [CondFList_Fact]
+                                                            ) [CondTerm]
+                                                          ) [Condition_Term]
+                                                        ) [Condition]
+                                                      ) [Expr_BasicExpr]
+                                                    ) [DesignatorStatement_Assign]
+                                                  ) [ForInit_Yes]
+                                                  OptCondition_Yes(
+                                                    Condition(
+                                                      Condition_Term(
+                                                        CondTerm(
+                                                          CondFList_Fact(
+                                                            CondFact_Relop(
+                                                              BasicExpr_Term(
+                                                                Term_Single(
+                                                                  Factor_Design(
+                                                                    Designator(
+                                                                      DesignatorName(
+                                                                       i
+                                                                      ) [DesignatorName]
+                                                                      DesignatorMore_Empty(
+                                                                      ) [DesignatorMore_Empty]
+                                                                    ) [Designator]
+                                                                  ) [Factor_Design]
+                                                                ) [Term_Single]
+                                                              ) [BasicExpr_Term]
+                                                              Relop_Less(
+                                                              ) [Relop_Less]
+                                                              BasicExpr_Term(
+                                                                Term_Single(
+                                                                  Factor_Num(
+                                                                   5
+                                                                  ) [Factor_Num]
+                                                                ) [Term_Single]
+                                                              ) [BasicExpr_Term]
+                                                            ) [CondFact_Relop]
+                                                          ) [CondFList_Fact]
+                                                        ) [CondTerm]
+                                                      ) [Condition_Term]
+                                                    ) [Condition]
+                                                  ) [OptCondition_Yes]
+                                                  ForAfter_Yes(
+                                                    DesignatorStatement_Inc(
+                                                      Designator(
+                                                        DesignatorName(
+                                                         i
+                                                        ) [DesignatorName]
+                                                        DesignatorMore_Empty(
+                                                        ) [DesignatorMore_Empty]
+                                                      ) [Designator]
+                                                    ) [DesignatorStatement_Inc]
+                                                  ) [ForAfter_Yes]
+                                                  Statement_Block(
+                                                    StatementList_More(
+                                                      StatementList_Empty(
+                                                      ) [StatementList_Empty]
+                                                      Statement_If(
+                                                        Condition(
+                                                          Condition_Term(
+                                                            CondTerm(
+                                                              CondFList_Fact(
+                                                                CondFact_Relop(
+                                                                  BasicExpr_Term(
+                                                                    Term_Single(
+                                                                      Factor_Design(
+                                                                        Designator(
+                                                                          DesignatorName(
+                                                                           i
+                                                                          ) [DesignatorName]
+                                                                          DesignatorMore_Empty(
+                                                                          ) [DesignatorMore_Empty]
+                                                                        ) [Designator]
+                                                                      ) [Factor_Design]
+                                                                    ) [Term_Single]
+                                                                  ) [BasicExpr_Term]
+                                                                  Relop_Equal(
+                                                                  ) [Relop_Equal]
+                                                                  BasicExpr_Term(
+                                                                    Term_Single(
+                                                                      Factor_Num(
+                                                                       2
+                                                                      ) [Factor_Num]
+                                                                    ) [Term_Single]
+                                                                  ) [BasicExpr_Term]
+                                                                ) [CondFact_Relop]
+                                                              ) [CondFList_Fact]
+                                                            ) [CondTerm]
+                                                          ) [Condition_Term]
+                                                        ) [Condition]
+                                                        Statement_Designator(
+                                                          DesignatorStatement_Assign(
+                                                            Designator(
+                                                              DesignatorName(
+                                                               ibool
+                                                              ) [DesignatorName]
+                                                              DesignatorMore_Empty(
+                                                              ) [DesignatorMore_Empty]
+                                                            ) [Designator]
+                                                            Assignop_Assign(
+                                                            ) [Assignop_Assign]
+                                                            Expr_BasicExpr(
+                                                              Condition(
+                                                                Condition_Term(
+                                                                  CondTerm(
+                                                                    CondFList_Fact(
+                                                                      CondFact_Basic(
+                                                                        BasicExpr_Term(
+                                                                          Term_Single(
+                                                                            Factor_Bool(
+                                                                             1
+                                                                            ) [Factor_Bool]
+                                                                          ) [Term_Single]
+                                                                        ) [BasicExpr_Term]
+                                                                      ) [CondFact_Basic]
+                                                                    ) [CondFList_Fact]
+                                                                  ) [CondTerm]
+                                                                ) [Condition_Term]
+                                                              ) [Condition]
+                                                            ) [Expr_BasicExpr]
+                                                          ) [DesignatorStatement_Assign]
+                                                        ) [Statement_Designator]
+                                                      ) [Statement_If]
+                                                    ) [StatementList_More]
+                                                  ) [Statement_Block]
+                                                ) [Statement_For]
+                                              ) [StatementList_More]
+                                              Statement_If(
+                                                Condition(
+                                                  Condition_Term(
+                                                    CondTerm(
+                                                      CondFList_Fact(
+                                                        CondFact_Basic(
+                                                          BasicExpr_Term(
+                                                            Term_Single(
+                                                              Factor_Design(
+                                                                Designator(
+                                                                  DesignatorName(
+                                                                   ibool
+                                                                  ) [DesignatorName]
+                                                                  DesignatorMore_Empty(
+                                                                  ) [DesignatorMore_Empty]
+                                                                ) [Designator]
+                                                              ) [Factor_Design]
+                                                            ) [Term_Single]
+                                                          ) [BasicExpr_Term]
+                                                        ) [CondFact_Basic]
+                                                      ) [CondFList_Fact]
+                                                    ) [CondTerm]
+                                                  ) [Condition_Term]
+                                                ) [Condition]
+                                                Statement_IfElse(
+                                                  Condition(
+                                                    Condition_Term(
+                                                      CondTerm(
+                                                        CondFList_Fact(
+                                                          CondFact_Relop(
+                                                            BasicExpr_Term(
+                                                              Term_Single(
+                                                                Factor_Design(
+                                                                  Designator(
+                                                                    DesignatorName(
+                                                                     i
+                                                                    ) [DesignatorName]
+                                                                    DesignatorMore_Empty(
+                                                                    ) [DesignatorMore_Empty]
+                                                                  ) [Designator]
+                                                                ) [Factor_Design]
+                                                              ) [Term_Single]
+                                                            ) [BasicExpr_Term]
+                                                            Relop_Equal(
+                                                            ) [Relop_Equal]
+                                                            BasicExpr_Term(
+                                                              Term_Single(
+                                                                Factor_Num(
+                                                                 5
+                                                                ) [Factor_Num]
+                                                              ) [Term_Single]
+                                                            ) [BasicExpr_Term]
+                                                          ) [CondFact_Relop]
+                                                        ) [CondFList_Fact]
+                                                      ) [CondTerm]
+                                                    ) [Condition_Term]
+                                                  ) [Condition]
+                                                  Statement_Print(
+                                                    Expr_BasicExpr(
+                                                      Condition(
+                                                        Condition_Term(
+                                                          CondTerm(
+                                                            CondFList_Fact(
+                                                              CondFact_Basic(
+                                                                BasicExpr_Term(
+                                                                  Term_Single(
+                                                                    Factor_Num(
+                                                                     1
+                                                                    ) [Factor_Num]
+                                                                  ) [Term_Single]
+                                                                ) [BasicExpr_Term]
+                                                              ) [CondFact_Basic]
+                                                            ) [CondFList_Fact]
+                                                          ) [CondTerm]
+                                                        ) [Condition_Term]
+                                                      ) [Condition]
+                                                    ) [Expr_BasicExpr]
+                                                  ) [Statement_Print]
+                                                  Else(
+                                                  ) [Else]
+                                                  Statement_Print(
+                                                    Expr_BasicExpr(
+                                                      Condition(
+                                                        Condition_Term(
+                                                          CondTerm(
+                                                            CondFList_Fact(
+                                                              CondFact_Basic(
+                                                                BasicExpr_Unary(
+                                                                  Term_Single(
+                                                                    Factor_Num(
+                                                                     1
+                                                                    ) [Factor_Num]
+                                                                  ) [Term_Single]
+                                                                ) [BasicExpr_Unary]
+                                                              ) [CondFact_Basic]
+                                                            ) [CondFList_Fact]
+                                                          ) [CondTerm]
+                                                        ) [Condition_Term]
+                                                      ) [Condition]
+                                                    ) [Expr_BasicExpr]
+                                                  ) [Statement_Print]
+                                                ) [Statement_IfElse]
+                                              ) [Statement_If]
+                                            ) [StatementList_More]
+                                            Statement_Designator(
+                                              DesignatorStatement_Assign(
+                                                Designator(
+                                                  DesignatorName(
+                                                   niz
+                                                  ) [DesignatorName]
+                                                  DesignatorMore_Empty(
+                                                  ) [DesignatorMore_Empty]
+                                                ) [Designator]
+                                                Assignop_Assign(
+                                                ) [Assignop_Assign]
+                                                Expr_BasicExpr(
+                                                  Condition(
+                                                    Condition_Term(
+                                                      CondTerm(
+                                                        CondFList_Fact(
+                                                          CondFact_Basic(
+                                                            BasicExpr_Term(
+                                                              Term_Single(
+                                                                Factor_New_Array(
+                                                                  Type(
+                                                                   int
+                                                                  ) [Type]
+                                                                  Expr_BasicExpr(
+                                                                    Condition(
+                                                                      Condition_Term(
+                                                                        CondTerm(
+                                                                          CondFList_Fact(
+                                                                            CondFact_Basic(
+                                                                              BasicExpr_Term(
+                                                                                Term_Single(
+                                                                                  Factor_Num(
+                                                                                   3
+                                                                                  ) [Factor_Num]
+                                                                                ) [Term_Single]
+                                                                              ) [BasicExpr_Term]
+                                                                            ) [CondFact_Basic]
+                                                                          ) [CondFList_Fact]
+                                                                        ) [CondTerm]
+                                                                      ) [Condition_Term]
+                                                                    ) [Condition]
+                                                                  ) [Expr_BasicExpr]
+                                                                ) [Factor_New_Array]
+                                                              ) [Term_Single]
+                                                            ) [BasicExpr_Term]
+                                                          ) [CondFact_Basic]
+                                                        ) [CondFList_Fact]
+                                                      ) [CondTerm]
+                                                    ) [Condition_Term]
+                                                  ) [Condition]
+                                                ) [Expr_BasicExpr]
+                                              ) [DesignatorStatement_Assign]
+                                            ) [Statement_Designator]
+                                          ) [StatementList_More]
+                                          Statement_Designator(
+                                            DesignatorStatement_Assign(
+                                              Designator(
+                                                DesignatorName(
+                                                 niz
+                                                ) [DesignatorName]
+                                                DesignatorMore_Array(
+                                                  Expr_BasicExpr(
+                                                    Condition(
+                                                      Condition_Term(
+                                                        CondTerm(
+                                                          CondFList_Fact(
+                                                            CondFact_Basic(
+                                                              BasicExpr_Term(
+                                                                Term_Single(
+                                                                  Factor_Num(
+                                                                   0
+                                                                  ) [Factor_Num]
+                                                                ) [Term_Single]
+                                                              ) [BasicExpr_Term]
+                                                            ) [CondFact_Basic]
+                                                          ) [CondFList_Fact]
+                                                        ) [CondTerm]
+                                                      ) [Condition_Term]
+                                                    ) [Condition]
+                                                  ) [Expr_BasicExpr]
+                                                ) [DesignatorMore_Array]
+                                              ) [Designator]
+                                              Assignop_Assign(
+                                              ) [Assignop_Assign]
+                                              Expr_BasicExpr(
+                                                Condition(
+                                                  Condition_Term(
+                                                    CondTerm(
+                                                      CondFList_Fact(
+                                                        CondFact_Basic(
+                                                          BasicExpr_Term(
+                                                            Term_Single(
+                                                              Factor_Num(
+                                                               1
+                                                              ) [Factor_Num]
+                                                            ) [Term_Single]
+                                                          ) [BasicExpr_Term]
+                                                        ) [CondFact_Basic]
+                                                      ) [CondFList_Fact]
+                                                    ) [CondTerm]
+                                                  ) [Condition_Term]
+                                                ) [Condition]
+                                              ) [Expr_BasicExpr]
+                                            ) [DesignatorStatement_Assign]
+                                          ) [Statement_Designator]
+                                        ) [StatementList_More]
+                                        Statement_Designator(
+                                          DesignatorStatement_Assign(
+                                            Designator(
+                                              DesignatorName(
+                                               niz
+                                              ) [DesignatorName]
+                                              DesignatorMore_Array(
+                                                Expr_BasicExpr(
+                                                  Condition(
+                                                    Condition_Term(
+                                                      CondTerm(
+                                                        CondFList_Fact(
+                                                          CondFact_Basic(
+                                                            BasicExpr_Term(
+                                                              Term_Single(
+                                                                Factor_Num(
+                                                                 1
+                                                                ) [Factor_Num]
+                                                              ) [Term_Single]
+                                                            ) [BasicExpr_Term]
+                                                          ) [CondFact_Basic]
+                                                        ) [CondFList_Fact]
+                                                      ) [CondTerm]
+                                                    ) [Condition_Term]
+                                                  ) [Condition]
+                                                ) [Expr_BasicExpr]
+                                              ) [DesignatorMore_Array]
+                                            ) [Designator]
+                                            Assignop_Assign(
+                                            ) [Assignop_Assign]
+                                            Expr_BasicExpr(
+                                              Condition(
+                                                Condition_Term(
+                                                  CondTerm(
+                                                    CondFList_Fact(
+                                                      CondFact_Basic(
+                                                        BasicExpr_Term(
+                                                          Term_Single(
+                                                            Factor_Num(
+                                                             2
+                                                            ) [Factor_Num]
+                                                          ) [Term_Single]
+                                                        ) [BasicExpr_Term]
+                                                      ) [CondFact_Basic]
+                                                    ) [CondFList_Fact]
+                                                  ) [CondTerm]
+                                                ) [Condition_Term]
+                                              ) [Condition]
+                                            ) [Expr_BasicExpr]
+                                          ) [DesignatorStatement_Assign]
+                                        ) [Statement_Designator]
+                                      ) [StatementList_More]
+                                      Statement_Designator(
+                                        DesignatorStatement_Assign(
+                                          Designator(
+                                            DesignatorName(
+                                             niz
+                                            ) [DesignatorName]
+                                            DesignatorMore_Array(
+                                              Expr_BasicExpr(
+                                                Condition(
+                                                  Condition_Term(
+                                                    CondTerm(
+                                                      CondFList_Fact(
+                                                        CondFact_Basic(
+                                                          BasicExpr_Term(
+                                                            Term_Single(
+                                                              Factor_Num(
+                                                               2
+                                                              ) [Factor_Num]
+                                                            ) [Term_Single]
+                                                          ) [BasicExpr_Term]
+                                                        ) [CondFact_Basic]
+                                                      ) [CondFList_Fact]
+                                                    ) [CondTerm]
+                                                  ) [Condition_Term]
+                                                ) [Condition]
+                                              ) [Expr_BasicExpr]
+                                            ) [DesignatorMore_Array]
+                                          ) [Designator]
+                                          Assignop_Assign(
+                                          ) [Assignop_Assign]
+                                          Expr_BasicExpr(
+                                            Condition(
+                                              Condition_Term(
+                                                CondTerm(
+                                                  CondFList_Fact(
+                                                    CondFact_Basic(
+                                                      BasicExpr_Addop(
+                                                        BasicExpr_Term(
+                                                          Term_Single(
+                                                            Factor_ActPars(
+                                                              Designator(
+                                                                DesignatorName(
+                                                                 sum
+                                                                ) [DesignatorName]
+                                                                DesignatorMore_Empty(
+                                                                ) [DesignatorMore_Empty]
+                                                              ) [Designator]
+                                                              ActParameters(
+                                                                ActParsBegin(
+                                                                ) [ActParsBegin]
+                                                                ActParamList(
+                                                                  SingleActParam(
+                                                                    Expr_BasicExpr(
+                                                                      Condition(
+                                                                        Condition_Term(
+                                                                          CondTerm(
+                                                                            CondFList_Fact(
+                                                                              CondFact_Basic(
+                                                                                BasicExpr_Term(
+                                                                                  Term_Single(
+                                                                                    Factor_Design(
+                                                                                      Designator(
+                                                                                        DesignatorName(
+                                                                                         niz
+                                                                                        ) [DesignatorName]
+                                                                                        DesignatorMore_Array(
+                                                                                          Expr_BasicExpr(
+                                                                                            Condition(
+                                                                                              Condition_Term(
+                                                                                                CondTerm(
+                                                                                                  CondFList_Fact(
+                                                                                                    CondFact_Basic(
+                                                                                                      BasicExpr_Term(
+                                                                                                        Term_Single(
+                                                                                                          Factor_Num(
+                                                                                                           1
+                                                                                                          ) [Factor_Num]
+                                                                                                        ) [Term_Single]
+                                                                                                      ) [BasicExpr_Term]
+                                                                                                    ) [CondFact_Basic]
+                                                                                                  ) [CondFList_Fact]
+                                                                                                ) [CondTerm]
+                                                                                              ) [Condition_Term]
+                                                                                            ) [Condition]
+                                                                                          ) [Expr_BasicExpr]
+                                                                                        ) [DesignatorMore_Array]
+                                                                                      ) [Designator]
+                                                                                    ) [Factor_Design]
+                                                                                  ) [Term_Single]
+                                                                                ) [BasicExpr_Term]
+                                                                              ) [CondFact_Basic]
+                                                                            ) [CondFList_Fact]
+                                                                          ) [CondTerm]
+                                                                        ) [Condition_Term]
+                                                                      ) [Condition]
+                                                                    ) [Expr_BasicExpr]
+                                                                  ) [SingleActParam]
+                                                                  Expr_BasicExpr(
+                                                                    Condition(
+                                                                      Condition_Term(
+                                                                        CondTerm(
+                                                                          CondFList_Fact(
+                                                                            CondFact_Basic(
+                                                                              BasicExpr_Term(
+                                                                                Term_Single(
+                                                                                  Factor_Design(
+                                                                                    Designator(
+                                                                                      DesignatorName(
+                                                                                       niz
+                                                                                      ) [DesignatorName]
+                                                                                      DesignatorMore_Array(
+                                                                                        Expr_BasicExpr(
+                                                                                          Condition(
+                                                                                            Condition_Term(
+                                                                                              CondTerm(
+                                                                                                CondFList_Fact(
+                                                                                                  CondFact_Basic(
+                                                                                                    BasicExpr_Term(
+                                                                                                      Term_Single(
+                                                                                                        Factor_Num(
+                                                                                                         0
+                                                                                                        ) [Factor_Num]
+                                                                                                      ) [Term_Single]
+                                                                                                    ) [BasicExpr_Term]
+                                                                                                  ) [CondFact_Basic]
+                                                                                                ) [CondFList_Fact]
+                                                                                              ) [CondTerm]
+                                                                                            ) [Condition_Term]
+                                                                                          ) [Condition]
+                                                                                        ) [Expr_BasicExpr]
+                                                                                      ) [DesignatorMore_Array]
+                                                                                    ) [Designator]
+                                                                                  ) [Factor_Design]
+                                                                                ) [Term_Single]
+                                                                              ) [BasicExpr_Term]
+                                                                            ) [CondFact_Basic]
+                                                                          ) [CondFList_Fact]
+                                                                        ) [CondTerm]
+                                                                      ) [Condition_Term]
+                                                                    ) [Condition]
+                                                                  ) [Expr_BasicExpr]
+                                                                ) [ActParamList]
+                                                              ) [ActParameters]
+                                                            ) [Factor_ActPars]
+                                                          ) [Term_Single]
+                                                        ) [BasicExpr_Term]
+                                                        Addop_Plus(
+                                                        ) [Addop_Plus]
+                                                        Term_Single(
+                                                          Factor_Num(
+                                                           1
+                                                          ) [Factor_Num]
+                                                        ) [Term_Single]
+                                                      ) [BasicExpr_Addop]
+                                                    ) [CondFact_Basic]
+                                                  ) [CondFList_Fact]
+                                                ) [CondTerm]
+                                              ) [Condition_Term]
+                                            ) [Condition]
+                                          ) [Expr_BasicExpr]
+                                        ) [DesignatorStatement_Assign]
+                                      ) [Statement_Designator]
+                                    ) [StatementList_More]
+                                    Statement_IfElse(
+                                      Condition(
+                                        Condition_OR(
+                                          Condition_Term(
+                                            CondTerm(
+                                              CondFList_Fact(
+                                                CondFact_Relop(
+                                                  BasicExpr_Term(
+                                                    Term_Single(
+                                                      Factor_Design(
+                                                        Designator(
+                                                          DesignatorName(
+                                                           niz
+                                                          ) [DesignatorName]
+                                                          DesignatorMore_Array(
+                                                            Expr_BasicExpr(
+                                                              Condition(
+                                                                Condition_Term(
+                                                                  CondTerm(
+                                                                    CondFList_Fact(
+                                                                      CondFact_Basic(
+                                                                        BasicExpr_Term(
+                                                                          Term_Single(
+                                                                            Factor_Num(
+                                                                             2
+                                                                            ) [Factor_Num]
+                                                                          ) [Term_Single]
+                                                                        ) [BasicExpr_Term]
+                                                                      ) [CondFact_Basic]
+                                                                    ) [CondFList_Fact]
+                                                                  ) [CondTerm]
+                                                                ) [Condition_Term]
+                                                              ) [Condition]
+                                                            ) [Expr_BasicExpr]
+                                                          ) [DesignatorMore_Array]
+                                                        ) [Designator]
+                                                      ) [Factor_Design]
+                                                    ) [Term_Single]
+                                                  ) [BasicExpr_Term]
+                                                  Relop_Equal(
+                                                  ) [Relop_Equal]
+                                                  BasicExpr_Term(
+                                                    Term_Single(
+                                                      Factor_Num(
+                                                       4
+                                                      ) [Factor_Num]
+                                                    ) [Term_Single]
+                                                  ) [BasicExpr_Term]
+                                                ) [CondFact_Relop]
+                                              ) [CondFList_Fact]
+                                            ) [CondTerm]
+                                          ) [Condition_Term]
+                                          CondTerm(
+                                            CondFList_Fact(
+                                              CondFact_Basic(
+                                                BasicExpr_Term(
+                                                  Term_Single(
+                                                    Factor_ActPars(
+                                                      Designator(
+                                                        DesignatorName(
+                                                         verify
+                                                        ) [DesignatorName]
+                                                        DesignatorMore_Empty(
+                                                        ) [DesignatorMore_Empty]
+                                                      ) [Designator]
+                                                      NoActParameters(
+                                                        ActParsBegin(
+                                                        ) [ActParsBegin]
+                                                      ) [NoActParameters]
+                                                    ) [Factor_ActPars]
+                                                  ) [Term_Single]
+                                                ) [BasicExpr_Term]
+                                              ) [CondFact_Basic]
+                                            ) [CondFList_Fact]
+                                          ) [CondTerm]
+                                        ) [Condition_OR]
+                                      ) [Condition]
+                                      Statement_Print(
+                                        Expr_BasicExpr(
+                                          Condition(
+                                            Condition_Term(
+                                              CondTerm(
+                                                CondFList_Fact(
+                                                  CondFact_Basic(
+                                                    BasicExpr_Term(
+                                                      Term_Single(
+                                                        Factor_ActPars(
+                                                          Designator(
+                                                            DesignatorName(
+                                                             ord
+                                                            ) [DesignatorName]
+                                                            DesignatorMore_Empty(
+                                                            ) [DesignatorMore_Empty]
+                                                          ) [Designator]
+                                                          ActParameters(
+                                                            ActParsBegin(
+                                                            ) [ActParsBegin]
+                                                            SingleActParam(
+                                                              Expr_BasicExpr(
+                                                                Condition(
+                                                                  Condition_Term(
+                                                                    CondTerm(
+                                                                      CondFList_Fact(
+                                                                        CondFact_Basic(
+                                                                          BasicExpr_Term(
+                                                                            Term_Single(
+                                                                              Factor_Char(
+                                                                               A
+                                                                              ) [Factor_Char]
+                                                                            ) [Term_Single]
+                                                                          ) [BasicExpr_Term]
+                                                                        ) [CondFact_Basic]
+                                                                      ) [CondFList_Fact]
+                                                                    ) [CondTerm]
+                                                                  ) [Condition_Term]
+                                                                ) [Condition]
+                                                              ) [Expr_BasicExpr]
+                                                            ) [SingleActParam]
+                                                          ) [ActParameters]
+                                                        ) [Factor_ActPars]
+                                                      ) [Term_Single]
+                                                    ) [BasicExpr_Term]
+                                                  ) [CondFact_Basic]
+                                                ) [CondFList_Fact]
+                                              ) [CondTerm]
+                                            ) [Condition_Term]
+                                          ) [Condition]
+                                        ) [Expr_BasicExpr]
+                                      ) [Statement_Print]
+                                      Else(
+                                      ) [Else]
+                                      Statement_Print(
+                                        Expr_BasicExpr(
+                                          Condition(
+                                            Condition_Term(
+                                              CondTerm(
+                                                CondFList_Fact(
+                                                  CondFact_Basic(
+                                                    BasicExpr_Term(
+                                                      Term_Single(
+                                                        Factor_ActPars(
+                                                          Designator(
+                                                            DesignatorName(
+                                                             ord
+                                                            ) [DesignatorName]
+                                                            DesignatorMore_Empty(
+                                                            ) [DesignatorMore_Empty]
+                                                          ) [Designator]
+                                                          ActParameters(
+                                                            ActParsBegin(
+                                                            ) [ActParsBegin]
+                                                            SingleActParam(
+                                                              Expr_BasicExpr(
+                                                                Condition(
+                                                                  Condition_Term(
+                                                                    CondTerm(
+                                                                      CondFList_Fact(
+                                                                        CondFact_Basic(
+                                                                          BasicExpr_Term(
+                                                                            Term_Single(
+                                                                              Factor_Char(
+                                                                               a
+                                                                              ) [Factor_Char]
+                                                                            ) [Term_Single]
+                                                                          ) [BasicExpr_Term]
+                                                                        ) [CondFact_Basic]
+                                                                      ) [CondFList_Fact]
+                                                                    ) [CondTerm]
+                                                                  ) [Condition_Term]
+                                                                ) [Condition]
+                                                              ) [Expr_BasicExpr]
+                                                            ) [SingleActParam]
+                                                          ) [ActParameters]
+                                                        ) [Factor_ActPars]
+                                                      ) [Term_Single]
+                                                    ) [BasicExpr_Term]
+                                                  ) [CondFact_Basic]
+                                                ) [CondFList_Fact]
+                                              ) [CondTerm]
+                                            ) [Condition_Term]
+                                          ) [Condition]
+                                        ) [Expr_BasicExpr]
+                                      ) [Statement_Print]
+                                    ) [Statement_IfElse]
+                                  ) [StatementList_More]
+                                  Statement_Print(
+                                    Expr_BasicExpr(
+                                      Condition(
+                                        Condition_Term(
+                                          CondTerm(
+                                            CondFList_Fact(
+                                              CondFact_Basic(
+                                                BasicExpr_Term(
+                                                  Term_Single(
+                                                    Factor_Design(
+                                                      Designator(
+                                                        DesignatorName(
+                                                         eol
+                                                        ) [DesignatorName]
+                                                        DesignatorMore_Empty(
+                                                        ) [DesignatorMore_Empty]
+                                                      ) [Designator]
+                                                    ) [Factor_Design]
+                                                  ) [Term_Single]
+                                                ) [BasicExpr_Term]
+                                              ) [CondFact_Basic]
+                                            ) [CondFList_Fact]
+                                          ) [CondTerm]
+                                        ) [Condition_Term]
+                                      ) [Condition]
+                                    ) [Expr_BasicExpr]
+                                  ) [Statement_Print]
+                                ) [StatementList_More]
+                                Statement_Designator(
+                                  DesignatorStatement_Assign(
+                                    Designator(
+                                      DesignatorName(
+                                       i
+                                      ) [DesignatorName]
+                                      DesignatorMore_Empty(
+                                      ) [DesignatorMore_Empty]
+                                    ) [Designator]
+                                    Assignop_Assign(
+                                    ) [Assignop_Assign]
+                                    Expr_BasicExpr(
+                                      Condition(
+                                        Condition_Term(
+                                          CondTerm(
+                                            CondFList_Fact(
+                                              CondFact_Basic(
+                                                BasicExpr_Term(
+                                                  Term_Single(
+                                                    Factor_Num(
+                                                     0
+                                                    ) [Factor_Num]
+                                                  ) [Term_Single]
+                                                ) [BasicExpr_Term]
+                                              ) [CondFact_Basic]
+                                            ) [CondFList_Fact]
+                                          ) [CondTerm]
+                                        ) [Condition_Term]
+                                      ) [Condition]
+                                    ) [Expr_BasicExpr]
+                                  ) [DesignatorStatement_Assign]
+                                ) [Statement_Designator]
+                              ) [StatementList_More]
+                              Statement_For(
+                                ForTerm(
+                                ) [ForTerm]
+                                ForInit_No(
+                                ) [ForInit_No]
+                                OptCondition_Yes(
+                                  Condition(
+                                    Condition_Term(
+                                      CondTerm(
+                                        CondFList_Fact(
+                                          CondFact_Relop(
+                                            BasicExpr_Term(
+                                              Term_Single(
+                                                Factor_Design(
+                                                  Designator(
+                                                    DesignatorName(
+                                                     i
+                                                    ) [DesignatorName]
+                                                    DesignatorMore_Empty(
+                                                    ) [DesignatorMore_Empty]
+                                                  ) [Designator]
+                                                ) [Factor_Design]
+                                              ) [Term_Single]
+                                            ) [BasicExpr_Term]
+                                            Relop_Less(
+                                            ) [Relop_Less]
+                                            BasicExpr_Term(
+                                              Term_Single(
+                                                Factor_Num(
+                                                 10
+                                                ) [Factor_Num]
+                                              ) [Term_Single]
+                                            ) [BasicExpr_Term]
+                                          ) [CondFact_Relop]
+                                        ) [CondFList_Fact]
+                                      ) [CondTerm]
+                                    ) [Condition_Term]
+                                  ) [Condition]
+                                ) [OptCondition_Yes]
+                                ForAfter_No(
+                                ) [ForAfter_No]
+                                Statement_Block(
+                                  StatementList_More(
+                                    StatementList_More(
+                                      StatementList_More(
+                                        StatementList_Empty(
+                                        ) [StatementList_Empty]
+                                        Statement_If(
+                                          Condition(
+                                            Condition_Term(
+                                              CondTerm(
+                                                CondFList_Fact(
+                                                  CondFact_Relop(
+                                                    BasicExpr_Term(
+                                                      Term_Single(
+                                                        Factor_Design(
+                                                          Designator(
+                                                            DesignatorName(
+                                                             i
+                                                            ) [DesignatorName]
+                                                            DesignatorMore_Empty(
+                                                            ) [DesignatorMore_Empty]
+                                                          ) [Designator]
+                                                        ) [Factor_Design]
+                                                      ) [Term_Single]
+                                                    ) [BasicExpr_Term]
+                                                    Relop_Equal(
+                                                    ) [Relop_Equal]
+                                                    BasicExpr_Term(
+                                                      Term_Single(
+                                                        Factor_Num(
+                                                         3
+                                                        ) [Factor_Num]
+                                                      ) [Term_Single]
+                                                    ) [BasicExpr_Term]
+                                                  ) [CondFact_Relop]
+                                                ) [CondFList_Fact]
+                                              ) [CondTerm]
+                                            ) [Condition_Term]
+                                          ) [Condition]
+                                          Statement_Block(
+                                            StatementList_More(
+                                              StatementList_More(
+                                                StatementList_Empty(
+                                                ) [StatementList_Empty]
+                                                Statement_Designator(
+                                                  DesignatorStatement_Inc(
+                                                    Designator(
+                                                      DesignatorName(
+                                                       i
+                                                      ) [DesignatorName]
+                                                      DesignatorMore_Empty(
+                                                      ) [DesignatorMore_Empty]
+                                                    ) [Designator]
+                                                  ) [DesignatorStatement_Inc]
+                                                ) [Statement_Designator]
+                                              ) [StatementList_More]
+                                              Statement_Continue(
+                                              ) [Statement_Continue]
+                                            ) [StatementList_More]
+                                          ) [Statement_Block]
+                                        ) [Statement_If]
+                                      ) [StatementList_More]
+                                      Statement_If(
+                                        Condition(
+                                          Condition_Term(
+                                            CondTerm(
+                                              CondFList_Fact(
+                                                CondFact_Relop(
+                                                  BasicExpr_Term(
+                                                    Term_Single(
+                                                      Factor_Design(
+                                                        Designator(
+                                                          DesignatorName(
+                                                           i
+                                                          ) [DesignatorName]
+                                                          DesignatorMore_Empty(
+                                                          ) [DesignatorMore_Empty]
+                                                        ) [Designator]
+                                                      ) [Factor_Design]
+                                                    ) [Term_Single]
+                                                  ) [BasicExpr_Term]
+                                                  Relop_Equal(
+                                                  ) [Relop_Equal]
+                                                  BasicExpr_Term(
+                                                    Term_Single(
+                                                      Factor_Num(
+                                                       4
+                                                      ) [Factor_Num]
+                                                    ) [Term_Single]
+                                                  ) [BasicExpr_Term]
+                                                ) [CondFact_Relop]
+                                              ) [CondFList_Fact]
+                                            ) [CondTerm]
+                                          ) [Condition_Term]
+                                        ) [Condition]
+                                        Statement_Break(
+                                        ) [Statement_Break]
+                                      ) [Statement_If]
+                                    ) [StatementList_More]
+                                    Statement_Designator(
+                                      DesignatorStatement_Assign(
+                                        Designator(
+                                          DesignatorName(
+                                           i
+                                          ) [DesignatorName]
+                                          DesignatorMore_Empty(
+                                          ) [DesignatorMore_Empty]
+                                        ) [Designator]
+                                        Assignop_Assign(
+                                        ) [Assignop_Assign]
+                                        Expr_BasicExpr(
+                                          Condition(
+                                            Condition_Term(
+                                              CondTerm(
+                                                CondFList_Fact(
+                                                  CondFact_Basic(
+                                                    BasicExpr_Term(
+                                                      Term_Single(
+                                                        Factor_ActPars(
+                                                          Designator(
+                                                            DesignatorName(
+                                                             inkrement
+                                                            ) [DesignatorName]
+                                                            DesignatorMore_Empty(
+                                                            ) [DesignatorMore_Empty]
+                                                          ) [Designator]
+                                                          ActParameters(
+                                                            ActParsBegin(
+                                                            ) [ActParsBegin]
+                                                            ActParamList(
+                                                              SingleActParam(
+                                                                Expr_BasicExpr(
+                                                                  Condition(
+                                                                    Condition_Term(
+                                                                      CondTerm(
+                                                                        CondFList_Fact(
+                                                                          CondFact_Basic(
+                                                                            BasicExpr_Term(
+                                                                              Term_Single(
+                                                                                Factor_Design(
+                                                                                  Designator(
+                                                                                    DesignatorName(
+                                                                                     i
+                                                                                    ) [DesignatorName]
+                                                                                    DesignatorMore_Empty(
+                                                                                    ) [DesignatorMore_Empty]
+                                                                                  ) [Designator]
+                                                                                ) [Factor_Design]
+                                                                              ) [Term_Single]
+                                                                            ) [BasicExpr_Term]
+                                                                          ) [CondFact_Basic]
+                                                                        ) [CondFList_Fact]
+                                                                      ) [CondTerm]
+                                                                    ) [Condition_Term]
+                                                                  ) [Condition]
+                                                                ) [Expr_BasicExpr]
+                                                              ) [SingleActParam]
+                                                              Expr_BasicExpr(
+                                                                Condition(
+                                                                  Condition_Term(
+                                                                    CondTerm(
+                                                                      CondFList_Fact(
+                                                                        CondFact_Basic(
+                                                                          BasicExpr_Term(
+                                                                            Term_Single(
+                                                                              Factor_Num(
+                                                                               1
+                                                                              ) [Factor_Num]
+                                                                            ) [Term_Single]
+                                                                          ) [BasicExpr_Term]
+                                                                        ) [CondFact_Basic]
+                                                                      ) [CondFList_Fact]
+                                                                    ) [CondTerm]
+                                                                  ) [Condition_Term]
+                                                                ) [Condition]
+                                                              ) [Expr_BasicExpr]
+                                                            ) [ActParamList]
+                                                          ) [ActParameters]
+                                                        ) [Factor_ActPars]
+                                                      ) [Term_Single]
+                                                    ) [BasicExpr_Term]
+                                                  ) [CondFact_Basic]
+                                                ) [CondFList_Fact]
+                                              ) [CondTerm]
+                                            ) [Condition_Term]
+                                          ) [Condition]
+                                        ) [Expr_BasicExpr]
+                                      ) [DesignatorStatement_Assign]
+                                    ) [Statement_Designator]
+                                  ) [StatementList_More]
+                                ) [Statement_Block]
+                              ) [Statement_For]
+                            ) [StatementList_More]
+                            Statement_IfElse(
+                              Condition(
+                                Condition_Term(
+                                  CondTerm(
+                                    CondFSingle_And(
+                                      CondFList_Fact(
+                                        CondFact_Relop(
+                                          BasicExpr_Term(
+                                            Term_Single(
+                                              Factor_Design(
+                                                Designator(
+                                                  DesignatorName(
+                                                   i
+                                                  ) [DesignatorName]
+                                                  DesignatorMore_Empty(
+                                                  ) [DesignatorMore_Empty]
+                                                ) [Designator]
+                                              ) [Factor_Design]
+                                            ) [Term_Single]
+                                          ) [BasicExpr_Term]
+                                          Relop_Equal(
+                                          ) [Relop_Equal]
+                                          BasicExpr_Term(
+                                            Term_Single(
+                                              Factor_Num(
+                                               3
+                                              ) [Factor_Num]
+                                            ) [Term_Single]
+                                          ) [BasicExpr_Term]
+                                        ) [CondFact_Relop]
+                                      ) [CondFList_Fact]
+                                      CondFact_Basic(
+                                        BasicExpr_Term(
+                                          Term_Single(
+                                            Factor_ActPars(
+                                              Designator(
+                                                DesignatorName(
+                                                 verify
+                                                ) [DesignatorName]
+                                                DesignatorMore_Empty(
+                                                ) [DesignatorMore_Empty]
+                                              ) [Designator]
+                                              NoActParameters(
+                                                ActParsBegin(
+                                                ) [ActParsBegin]
+                                              ) [NoActParameters]
+                                            ) [Factor_ActPars]
+                                          ) [Term_Single]
+                                        ) [BasicExpr_Term]
+                                      ) [CondFact_Basic]
+                                    ) [CondFSingle_And]
+                                  ) [CondTerm]
+                                ) [Condition_Term]
+                              ) [Condition]
+                              Statement_Print(
+                                Expr_BasicExpr(
+                                  Condition(
+                                    Condition_Term(
+                                      CondTerm(
+                                        CondFList_Fact(
+                                          CondFact_Basic(
+                                            BasicExpr_Term(
+                                              Term_Single(
+                                                Factor_Num(
+                                                 4
+                                                ) [Factor_Num]
+                                              ) [Term_Single]
+                                            ) [BasicExpr_Term]
+                                          ) [CondFact_Basic]
+                                        ) [CondFList_Fact]
+                                      ) [CondTerm]
+                                    ) [Condition_Term]
+                                  ) [Condition]
+                                ) [Expr_BasicExpr]
+                              ) [Statement_Print]
+                              Else(
+                              ) [Else]
+                              Statement_Print(
+                                Expr_BasicExpr(
+                                  Condition(
+                                    Condition_Term(
+                                      CondTerm(
+                                        CondFList_Fact(
+                                          CondFact_Basic(
+                                            BasicExpr_Unary(
+                                              Term_Single(
+                                                Factor_Num(
+                                                 4
+                                                ) [Factor_Num]
+                                              ) [Term_Single]
+                                            ) [BasicExpr_Unary]
+                                          ) [CondFact_Basic]
+                                        ) [CondFList_Fact]
+                                      ) [CondTerm]
+                                    ) [Condition_Term]
+                                  ) [Condition]
+                                ) [Expr_BasicExpr]
+                              ) [Statement_Print]
+                            ) [Statement_IfElse]
+                          ) [StatementList_More]
+                          Statement_Read(
+                            Designator(
+                              DesignatorName(
+                               niz
+                              ) [DesignatorName]
+                              DesignatorMore_Array(
+                                Expr_BasicExpr(
+                                  Condition(
+                                    Condition_Term(
+                                      CondTerm(
+                                        CondFList_Fact(
+                                          CondFact_Basic(
+                                            BasicExpr_Term(
+                                              Term_Single(
+                                                Factor_Num(
+                                                 0
+                                                ) [Factor_Num]
+                                              ) [Term_Single]
+                                            ) [BasicExpr_Term]
+                                          ) [CondFact_Basic]
+                                        ) [CondFList_Fact]
+                                      ) [CondTerm]
+                                    ) [Condition_Term]
+                                  ) [Condition]
+                                ) [Expr_BasicExpr]
+                              ) [DesignatorMore_Array]
+                            ) [Designator]
+                          ) [Statement_Read]
+                        ) [StatementList_More]
+                        Statement_Read(
+                          Designator(
+                            DesignatorName(
+                             niz
+                            ) [DesignatorName]
+                            DesignatorMore_Array(
+                              Expr_BasicExpr(
+                                Condition(
+                                  Condition_Term(
+                                    CondTerm(
+                                      CondFList_Fact(
+                                        CondFact_Basic(
+                                          BasicExpr_Term(
+                                            Term_Single(
+                                              Factor_Num(
+                                               1
+                                              ) [Factor_Num]
+                                            ) [Term_Single]
+                                          ) [BasicExpr_Term]
+                                        ) [CondFact_Basic]
+                                      ) [CondFList_Fact]
+                                    ) [CondTerm]
+                                  ) [Condition_Term]
+                                ) [Condition]
+                              ) [Expr_BasicExpr]
+                            ) [DesignatorMore_Array]
+                          ) [Designator]
+                        ) [Statement_Read]
+                      ) [StatementList_More]
+                      Statement_Read(
+                        Designator(
+                          DesignatorName(
+                           niz
+                          ) [DesignatorName]
+                          DesignatorMore_Array(
+                            Expr_BasicExpr(
+                              Condition(
+                                Condition_Term(
+                                  CondTerm(
+                                    CondFList_Fact(
+                                      CondFact_Basic(
+                                        BasicExpr_Term(
+                                          Term_Single(
+                                            Factor_Num(
+                                             2
+                                            ) [Factor_Num]
+                                          ) [Term_Single]
+                                        ) [BasicExpr_Term]
+                                      ) [CondFact_Basic]
+                                    ) [CondFList_Fact]
+                                  ) [CondTerm]
+                                ) [Condition_Term]
+                              ) [Condition]
+                            ) [Expr_BasicExpr]
+                          ) [DesignatorMore_Array]
+                        ) [Designator]
+                      ) [Statement_Read]
+                    ) [StatementList_More]
+                    Statement_Print(
+                      Expr_BasicExpr(
+                        Condition(
+                          Condition_Term(
+                            CondTerm(
+                              CondFList_Fact(
+                                CondFact_Basic(
+                                  BasicExpr_Term(
+                                    Term_Single(
+                                      Factor_Design(
+                                        Designator(
+                                          DesignatorName(
+                                           eol
+                                          ) [DesignatorName]
+                                          DesignatorMore_Empty(
+                                          ) [DesignatorMore_Empty]
+                                        ) [Designator]
+                                      ) [Factor_Design]
+                                    ) [Term_Single]
+                                  ) [BasicExpr_Term]
+                                ) [CondFact_Basic]
+                              ) [CondFList_Fact]
+                            ) [CondTerm]
+                          ) [Condition_Term]
+                        ) [Condition]
+                      ) [Expr_BasicExpr]
+                    ) [Statement_Print]
+                  ) [StatementList_More]
+                  Statement_Print(
+                    Expr_BasicExpr(
+                      Condition(
+                        Condition_Term(
+                          CondTerm(
+                            CondFList_Fact(
+                              CondFact_Basic(
+                                BasicExpr_Term(
+                                  Term_Single(
+                                    Factor_ActPars(
+                                      Designator(
+                                        DesignatorName(
+                                         sum
+                                        ) [DesignatorName]
+                                        DesignatorMore_Empty(
+                                        ) [DesignatorMore_Empty]
+                                      ) [Designator]
+                                      ActParameters(
+                                        ActParsBegin(
+                                        ) [ActParsBegin]
+                                        ActParamList(
+                                          SingleActParam(
+                                            Expr_BasicExpr(
+                                              Condition(
+                                                Condition_Term(
+                                                  CondTerm(
+                                                    CondFList_Fact(
+                                                      CondFact_Basic(
+                                                        BasicExpr_Term(
+                                                          Term_Single(
+                                                            Factor_ActPars(
+                                                              Designator(
+                                                                DesignatorName(
+                                                                 sum
+                                                                ) [DesignatorName]
+                                                                DesignatorMore_Empty(
+                                                                ) [DesignatorMore_Empty]
+                                                              ) [Designator]
+                                                              ActParameters(
+                                                                ActParsBegin(
+                                                                ) [ActParsBegin]
+                                                                ActParamList(
+                                                                  SingleActParam(
+                                                                    Expr_BasicExpr(
+                                                                      Condition(
+                                                                        Condition_Term(
+                                                                          CondTerm(
+                                                                            CondFList_Fact(
+                                                                              CondFact_Basic(
+                                                                                BasicExpr_Term(
+                                                                                  Term_Single(
+                                                                                    Factor_Design(
+                                                                                      Designator(
+                                                                                        DesignatorName(
+                                                                                         niz
+                                                                                        ) [DesignatorName]
+                                                                                        DesignatorMore_Array(
+                                                                                          Expr_BasicExpr(
+                                                                                            Condition(
+                                                                                              Condition_Term(
+                                                                                                CondTerm(
+                                                                                                  CondFList_Fact(
+                                                                                                    CondFact_Basic(
+                                                                                                      BasicExpr_Term(
+                                                                                                        Term_Single(
+                                                                                                          Factor_Num(
+                                                                                                           0
+                                                                                                          ) [Factor_Num]
+                                                                                                        ) [Term_Single]
+                                                                                                      ) [BasicExpr_Term]
+                                                                                                    ) [CondFact_Basic]
+                                                                                                  ) [CondFList_Fact]
+                                                                                                ) [CondTerm]
+                                                                                              ) [Condition_Term]
+                                                                                            ) [Condition]
+                                                                                          ) [Expr_BasicExpr]
+                                                                                        ) [DesignatorMore_Array]
+                                                                                      ) [Designator]
+                                                                                    ) [Factor_Design]
+                                                                                  ) [Term_Single]
+                                                                                ) [BasicExpr_Term]
+                                                                              ) [CondFact_Basic]
+                                                                            ) [CondFList_Fact]
+                                                                          ) [CondTerm]
+                                                                        ) [Condition_Term]
+                                                                      ) [Condition]
+                                                                    ) [Expr_BasicExpr]
+                                                                  ) [SingleActParam]
+                                                                  Expr_BasicExpr(
+                                                                    Condition(
+                                                                      Condition_Term(
+                                                                        CondTerm(
+                                                                          CondFList_Fact(
+                                                                            CondFact_Basic(
+                                                                              BasicExpr_Term(
+                                                                                Term_Single(
+                                                                                  Factor_Design(
+                                                                                    Designator(
+                                                                                      DesignatorName(
+                                                                                       niz
+                                                                                      ) [DesignatorName]
+                                                                                      DesignatorMore_Array(
+                                                                                        Expr_BasicExpr(
+                                                                                          Condition(
+                                                                                            Condition_Term(
+                                                                                              CondTerm(
+                                                                                                CondFList_Fact(
+                                                                                                  CondFact_Basic(
+                                                                                                    BasicExpr_Term(
+                                                                                                      Term_Single(
+                                                                                                        Factor_Num(
+                                                                                                         1
+                                                                                                        ) [Factor_Num]
+                                                                                                      ) [Term_Single]
+                                                                                                    ) [BasicExpr_Term]
+                                                                                                  ) [CondFact_Basic]
+                                                                                                ) [CondFList_Fact]
+                                                                                              ) [CondTerm]
+                                                                                            ) [Condition_Term]
+                                                                                          ) [Condition]
+                                                                                        ) [Expr_BasicExpr]
+                                                                                      ) [DesignatorMore_Array]
+                                                                                    ) [Designator]
+                                                                                  ) [Factor_Design]
+                                                                                ) [Term_Single]
+                                                                              ) [BasicExpr_Term]
+                                                                            ) [CondFact_Basic]
+                                                                          ) [CondFList_Fact]
+                                                                        ) [CondTerm]
+                                                                      ) [Condition_Term]
+                                                                    ) [Condition]
+                                                                  ) [Expr_BasicExpr]
+                                                                ) [ActParamList]
+                                                              ) [ActParameters]
+                                                            ) [Factor_ActPars]
+                                                          ) [Term_Single]
+                                                        ) [BasicExpr_Term]
+                                                      ) [CondFact_Basic]
+                                                    ) [CondFList_Fact]
+                                                  ) [CondTerm]
+                                                ) [Condition_Term]
+                                              ) [Condition]
+                                            ) [Expr_BasicExpr]
+                                          ) [SingleActParam]
+                                          Expr_BasicExpr(
+                                            Condition(
+                                              Condition_Term(
+                                                CondTerm(
+                                                  CondFList_Fact(
+                                                    CondFact_Basic(
+                                                      BasicExpr_Term(
+                                                        Term_Single(
+                                                          Factor_Design(
+                                                            Designator(
+                                                              DesignatorName(
+                                                               niz
+                                                              ) [DesignatorName]
+                                                              DesignatorMore_Array(
+                                                                Expr_BasicExpr(
+                                                                  Condition(
+                                                                    Condition_Term(
+                                                                      CondTerm(
+                                                                        CondFList_Fact(
+                                                                          CondFact_Basic(
+                                                                            BasicExpr_Term(
+                                                                              Term_Single(
+                                                                                Factor_Num(
+                                                                                 2
+                                                                                ) [Factor_Num]
+                                                                              ) [Term_Single]
+                                                                            ) [BasicExpr_Term]
+                                                                          ) [CondFact_Basic]
+                                                                        ) [CondFList_Fact]
+                                                                      ) [CondTerm]
+                                                                    ) [Condition_Term]
+                                                                  ) [Condition]
+                                                                ) [Expr_BasicExpr]
+                                                              ) [DesignatorMore_Array]
+                                                            ) [Designator]
+                                                          ) [Factor_Design]
+                                                        ) [Term_Single]
+                                                      ) [BasicExpr_Term]
+                                                    ) [CondFact_Basic]
+                                                  ) [CondFList_Fact]
+                                                ) [CondTerm]
+                                              ) [Condition_Term]
+                                            ) [Condition]
+                                          ) [Expr_BasicExpr]
+                                        ) [ActParamList]
+                                      ) [ActParameters]
+                                    ) [Factor_ActPars]
+                                  ) [Term_Single]
+                                ) [BasicExpr_Term]
+                              ) [CondFact_Basic]
+                            ) [CondFList_Fact]
+                          ) [CondTerm]
+                        ) [Condition_Term]
+                      ) [Condition]
+                    ) [Expr_BasicExpr]
+                  ) [Statement_Print]
+                ) [StatementList_More]
+                Statement_For(
+                  ForTerm(
+                  ) [ForTerm]
+                  ForInit_Yes(
+                    DesignatorStatement_Assign(
+                      Designator(
+                        DesignatorName(
+                         i
+                        ) [DesignatorName]
+                        DesignatorMore_Empty(
+                        ) [DesignatorMore_Empty]
+                      ) [Designator]
+                      Assignop_Assign(
+                      ) [Assignop_Assign]
+                      Expr_BasicExpr(
+                        Condition(
+                          Condition_Term(
+                            CondTerm(
+                              CondFList_Fact(
+                                CondFact_Basic(
+                                  BasicExpr_Term(
+                                    Term_Single(
+                                      Factor_Num(
+                                       0
+                                      ) [Factor_Num]
+                                    ) [Term_Single]
+                                  ) [BasicExpr_Term]
+                                ) [CondFact_Basic]
+                              ) [CondFList_Fact]
+                            ) [CondTerm]
+                          ) [Condition_Term]
+                        ) [Condition]
+                      ) [Expr_BasicExpr]
+                    ) [DesignatorStatement_Assign]
+                  ) [ForInit_Yes]
+                  OptCondition_Yes(
+                    Condition(
+                      Condition_Term(
+                        CondTerm(
+                          CondFList_Fact(
+                            CondFact_Relop(
+                              BasicExpr_Term(
+                                Term_Single(
+                                  Factor_Design(
+                                    Designator(
+                                      DesignatorName(
+                                       i
+                                      ) [DesignatorName]
+                                      DesignatorMore_Empty(
+                                      ) [DesignatorMore_Empty]
+                                    ) [Designator]
+                                  ) [Factor_Design]
+                                ) [Term_Single]
+                              ) [BasicExpr_Term]
+                              Relop_Less(
+                              ) [Relop_Less]
+                              BasicExpr_Term(
+                                Term_Single(
+                                  Factor_Design(
+                                    Designator(
+                                      DesignatorName(
+                                       niz
+                                      ) [DesignatorName]
+                                      DesignatorMore_Len(
+                                      ) [DesignatorMore_Len]
+                                    ) [Designator]
+                                  ) [Factor_Design]
+                                ) [Term_Single]
+                              ) [BasicExpr_Term]
+                            ) [CondFact_Relop]
+                          ) [CondFList_Fact]
+                        ) [CondTerm]
+                      ) [Condition_Term]
+                    ) [Condition]
+                  ) [OptCondition_Yes]
+                  ForAfter_Yes(
+                    DesignatorStatement_Inc(
+                      Designator(
+                        DesignatorName(
+                         i
+                        ) [DesignatorName]
+                        DesignatorMore_Empty(
+                        ) [DesignatorMore_Empty]
+                      ) [Designator]
+                    ) [DesignatorStatement_Inc]
+                  ) [ForAfter_Yes]
+                  Statement_Block(
+                    StatementList_More(
+                      StatementList_Empty(
+                      ) [StatementList_Empty]
+                      Statement_Print(
+                        Expr_BasicExpr(
+                          Condition(
+                            Condition_Term(
+                              CondTerm(
+                                CondFList_Fact(
+                                  CondFact_Basic(
+                                    BasicExpr_Term(
+                                      Term_Single(
+                                        Factor_Design(
+                                          Designator(
+                                            DesignatorName(
+                                             i
+                                            ) [DesignatorName]
+                                            DesignatorMore_Empty(
+                                            ) [DesignatorMore_Empty]
+                                          ) [Designator]
+                                        ) [Factor_Design]
+                                      ) [Term_Single]
+                                    ) [BasicExpr_Term]
+                                  ) [CondFact_Basic]
+                                ) [CondFList_Fact]
+                              ) [CondTerm]
+                            ) [Condition_Term]
+                          ) [Condition]
+                        ) [Expr_BasicExpr]
+                      ) [Statement_Print]
+                    ) [StatementList_More]
+                  ) [Statement_Block]
+                ) [Statement_For]
+              ) [StatementList_More]
+              Statement_Print(
+                Expr_BasicExpr(
+                  Condition(
+                    Condition_Term(
+                      CondTerm(
+                        CondFList_Fact(
+                          CondFact_Basic(
+                            BasicExpr_Term(
+                              Term_Single(
+                                Factor_Design(
+                                  Designator(
+                                    DesignatorName(
+                                     eol
+                                    ) [DesignatorName]
+                                    DesignatorMore_Empty(
+                                    ) [DesignatorMore_Empty]
+                                  ) [Designator]
+                                ) [Factor_Design]
+                              ) [Term_Single]
+                            ) [BasicExpr_Term]
+                          ) [CondFact_Basic]
+                        ) [CondFList_Fact]
+                      ) [CondTerm]
+                    ) [Condition_Term]
+                  ) [Condition]
+                ) [Expr_BasicExpr]
+              ) [Statement_Print]
+            ) [StatementList_More]
+            Statement_Print(
+              Expr_BasicExpr(
+                Condition(
+                  Condition_Term(
+                    CondTerm(
+                      CondFList_Fact(
+                        CondFact_Basic(
+                          BasicExpr_Term(
+                            Term_Single(
+                              Factor_ActPars(
+                                Designator(
+                                  DesignatorName(
+                                   inkrement
+                                  ) [DesignatorName]
+                                  DesignatorMore_Empty(
+                                  ) [DesignatorMore_Empty]
+                                ) [Designator]
+                                ActParameters(
+                                  ActParsBegin(
+                                  ) [ActParsBegin]
+                                  ActParamList(
+                                    SingleActParam(
+                                      Expr_BasicExpr(
+                                        Condition(
+                                          Condition_Term(
+                                            CondTerm(
+                                              CondFList_Fact(
+                                                CondFact_Basic(
+                                                  BasicExpr_Term(
+                                                    Term_Single(
+                                                      Factor_Design(
+                                                        Designator(
+                                                          DesignatorName(
+                                                           niz
+                                                          ) [DesignatorName]
+                                                          DesignatorMore_Array(
+                                                            Expr_BasicExpr(
+                                                              Condition(
+                                                                Condition_Term(
+                                                                  CondTerm(
+                                                                    CondFList_Fact(
+                                                                      CondFact_Basic(
+                                                                        BasicExpr_Term(
+                                                                          Term_Single(
+                                                                            Factor_Num(
+                                                                             2
+                                                                            ) [Factor_Num]
+                                                                          ) [Term_Single]
+                                                                        ) [BasicExpr_Term]
+                                                                      ) [CondFact_Basic]
+                                                                    ) [CondFList_Fact]
+                                                                  ) [CondTerm]
+                                                                ) [Condition_Term]
+                                                              ) [Condition]
+                                                            ) [Expr_BasicExpr]
+                                                          ) [DesignatorMore_Array]
+                                                        ) [Designator]
+                                                      ) [Factor_Design]
+                                                    ) [Term_Single]
+                                                  ) [BasicExpr_Term]
+                                                ) [CondFact_Basic]
+                                              ) [CondFList_Fact]
+                                            ) [CondTerm]
+                                          ) [Condition_Term]
+                                        ) [Condition]
+                                      ) [Expr_BasicExpr]
+                                    ) [SingleActParam]
+                                    Expr_BasicExpr(
+                                      Condition(
+                                        Condition_Term(
+                                          CondTerm(
+                                            CondFList_Fact(
+                                              CondFact_Basic(
+                                                BasicExpr_Term(
+                                                  Term_Single(
+                                                    Factor_Num(
+                                                     2
+                                                    ) [Factor_Num]
+                                                  ) [Term_Single]
+                                                ) [BasicExpr_Term]
+                                              ) [CondFact_Basic]
+                                            ) [CondFList_Fact]
+                                          ) [CondTerm]
+                                        ) [Condition_Term]
+                                      ) [Condition]
+                                    ) [Expr_BasicExpr]
+                                  ) [ActParamList]
+                                ) [ActParameters]
+                              ) [Factor_ActPars]
+                            ) [Term_Single]
+                          ) [BasicExpr_Term]
+                        ) [CondFact_Basic]
+                      ) [CondFList_Fact]
+                    ) [CondTerm]
+                  ) [Condition_Term]
+                ) [Condition]
+              ) [Expr_BasicExpr]
+            ) [Statement_Print]
+          ) [StatementList_More]
+          Statement_Print(
+            Expr_Ternary(
+              Condition(
+                Condition_Term(
+                  CondTerm(
+                    CondFList_Fact(
+                      CondFact_Basic(
+                        BasicExpr_Term(
+                          Term_Single(
+                            Factor_ActPars(
+                              Designator(
+                                DesignatorName(
+                                 verify
+                                ) [DesignatorName]
+                                DesignatorMore_Empty(
+                                ) [DesignatorMore_Empty]
+                              ) [Designator]
+                              NoActParameters(
+                                ActParsBegin(
+                                ) [ActParsBegin]
+                              ) [NoActParameters]
+                            ) [Factor_ActPars]
+                          ) [Term_Single]
+                        ) [BasicExpr_Term]
+                      ) [CondFact_Basic]
+                    ) [CondFList_Fact]
+                  ) [CondTerm]
+                ) [Condition_Term]
+              ) [Condition]
+              TernaryStart(
+              ) [TernaryStart]
+              Expr_BasicExpr(
+                Condition(
+                  Condition_Term(
+                    CondTerm(
+                      CondFList_Fact(
+                        CondFact_Basic(
+                          BasicExpr_Term(
+                            Term_Single(
+                              Factor_Char(
+                               t
+                              ) [Factor_Char]
+                            ) [Term_Single]
+                          ) [BasicExpr_Term]
+                        ) [CondFact_Basic]
+                      ) [CondFList_Fact]
+                    ) [CondTerm]
+                  ) [Condition_Term]
+                ) [Condition]
+              ) [Expr_BasicExpr]
+              TernaryMiddle(
+              ) [TernaryMiddle]
+              Expr_BasicExpr(
+                Condition(
+                  Condition_Term(
+                    CondTerm(
+                      CondFList_Fact(
+                        CondFact_Basic(
+                          BasicExpr_Term(
+                            Term_Single(
+                              Factor_Char(
+                               f
+                              ) [Factor_Char]
+                            ) [Term_Single]
+                          ) [BasicExpr_Term]
+                        ) [CondFact_Basic]
+                      ) [CondFList_Fact]
+                    ) [CondTerm]
+                  ) [Condition_Term]
+                ) [Condition]
+              ) [Expr_BasicExpr]
+            ) [Expr_Ternary]
+          ) [Statement_Print]
+        ) [StatementList_More]
+        Statement_For(
+          ForTerm(
+          ) [ForTerm]
+          ForInit_Yes(
+            DesignatorStatement_Assign(
+              Designator(
+                DesignatorName(
+                 i
+                ) [DesignatorName]
+                DesignatorMore_Empty(
+                ) [DesignatorMore_Empty]
+              ) [Designator]
+              Assignop_Assign(
+              ) [Assignop_Assign]
+              Expr_BasicExpr(
+                Condition(
+                  Condition_Term(
+                    CondTerm(
+                      CondFList_Fact(
+                        CondFact_Basic(
+                          BasicExpr_Term(
+                            Term_Single(
+                              Factor_Num(
+                               0
+                              ) [Factor_Num]
+                            ) [Term_Single]
+                          ) [BasicExpr_Term]
+                        ) [CondFact_Basic]
+                      ) [CondFList_Fact]
+                    ) [CondTerm]
+                  ) [Condition_Term]
+                ) [Condition]
+              ) [Expr_BasicExpr]
+            ) [DesignatorStatement_Assign]
+          ) [ForInit_Yes]
+          OptCondition_Yes(
+            Condition(
+              Condition_Term(
+                CondTerm(
+                  CondFList_Fact(
+                    CondFact_Relop(
+                      BasicExpr_Term(
+                        Term_Single(
+                          Factor_Design(
+                            Designator(
+                              DesignatorName(
+                               i
+                              ) [DesignatorName]
+                              DesignatorMore_Empty(
+                              ) [DesignatorMore_Empty]
+                            ) [Designator]
+                          ) [Factor_Design]
+                        ) [Term_Single]
+                      ) [BasicExpr_Term]
+                      Relop_Less(
+                      ) [Relop_Less]
+                      BasicExpr_Term(
+                        Term_Single(
+                          Factor_Num(
+                           10
+                          ) [Factor_Num]
+                        ) [Term_Single]
+                      ) [BasicExpr_Term]
+                    ) [CondFact_Relop]
+                  ) [CondFList_Fact]
+                ) [CondTerm]
+              ) [Condition_Term]
+            ) [Condition]
+          ) [OptCondition_Yes]
+          ForAfter_Yes(
+            DesignatorStatement_Inc(
+              Designator(
+                DesignatorName(
+                 i
+                ) [DesignatorName]
+                DesignatorMore_Empty(
+                ) [DesignatorMore_Empty]
+              ) [Designator]
+            ) [DesignatorStatement_Inc]
+          ) [ForAfter_Yes]
+          Statement_Block(
+            StatementList_More(
+              StatementList_More(
+                StatementList_Empty(
+                ) [StatementList_Empty]
+                Statement_Switch(
+                  Expr_BasicExpr(
+                    Condition(
+                      Condition_Term(
+                        CondTerm(
+                          CondFList_Fact(
+                            CondFact_Basic(
+                              BasicExpr_Addop(
+                                BasicExpr_Term(
+                                  Term_Single(
+                                    Factor_Design(
+                                      Designator(
+                                        DesignatorName(
+                                         i
+                                        ) [DesignatorName]
+                                        DesignatorMore_Empty(
+                                        ) [DesignatorMore_Empty]
+                                      ) [Designator]
+                                    ) [Factor_Design]
+                                  ) [Term_Single]
+                                ) [BasicExpr_Term]
+                                Addop_Plus(
+                                ) [Addop_Plus]
+                                Term_Single(
+                                  Factor_Num(
+                                   1
+                                  ) [Factor_Num]
+                                ) [Term_Single]
+                              ) [BasicExpr_Addop]
+                            ) [CondFact_Basic]
+                          ) [CondFList_Fact]
+                        ) [CondTerm]
+                      ) [Condition_Term]
+                    ) [Condition]
+                  ) [Expr_BasicExpr]
+                  SwitchStart(
+                  ) [SwitchStart]
+                  CaseList_More(
+                    CaseList_More(
+                      CaseList_More(
+                        CaseList_More(
+                          CaseList_More(
+                            CaseList_More(
+                              CaseList_Empty(
+                              ) [CaseList_Empty]
+                              CaseValue_Number(
+                               1
+                              ) [CaseValue_Number]
+                              StatementList_More(
+                                StatementList_More(
+                                  StatementList_Empty(
+                                  ) [StatementList_Empty]
+                                  Statement_Print(
+                                    Expr_BasicExpr(
+                                      Condition(
+                                        Condition_Term(
+                                          CondTerm(
+                                            CondFList_Fact(
+                                              CondFact_Basic(
+                                                BasicExpr_Term(
+                                                  Term_Single(
+                                                    Factor_Num(
+                                                     1
+                                                    ) [Factor_Num]
+                                                  ) [Term_Single]
+                                                ) [BasicExpr_Term]
+                                              ) [CondFact_Basic]
+                                            ) [CondFList_Fact]
+                                          ) [CondTerm]
+                                        ) [Condition_Term]
+                                      ) [Condition]
+                                    ) [Expr_BasicExpr]
+                                  ) [Statement_Print]
+                                ) [StatementList_More]
+                                Statement_Break(
+                                ) [Statement_Break]
+                              ) [StatementList_More]
+                            ) [CaseList_More]
+                            CaseValue_Number(
+                             3
+                            ) [CaseValue_Number]
+                            StatementList_More(
+                              StatementList_Empty(
+                              ) [StatementList_Empty]
+                              Statement_Print(
+                                Expr_BasicExpr(
+                                  Condition(
+                                    Condition_Term(
+                                      CondTerm(
+                                        CondFList_Fact(
+                                          CondFact_Basic(
+                                            BasicExpr_Term(
+                                              Term_Single(
+                                                Factor_Num(
+                                                 3
+                                                ) [Factor_Num]
+                                              ) [Term_Single]
+                                            ) [BasicExpr_Term]
+                                          ) [CondFact_Basic]
+                                        ) [CondFList_Fact]
+                                      ) [CondTerm]
+                                    ) [Condition_Term]
+                                  ) [Condition]
+                                ) [Expr_BasicExpr]
+                              ) [Statement_Print]
+                            ) [StatementList_More]
+                          ) [CaseList_More]
+                          CaseValue_Number(
+                           2
+                          ) [CaseValue_Number]
+                          StatementList_More(
+                            StatementList_More(
+                              StatementList_Empty(
+                              ) [StatementList_Empty]
+                              Statement_Print(
+                                Expr_BasicExpr(
+                                  Condition(
+                                    Condition_Term(
+                                      CondTerm(
+                                        CondFList_Fact(
+                                          CondFact_Basic(
+                                            BasicExpr_Term(
+                                              Term_Single(
+                                                Factor_Num(
+                                                 2
+                                                ) [Factor_Num]
+                                              ) [Term_Single]
+                                            ) [BasicExpr_Term]
+                                          ) [CondFact_Basic]
+                                        ) [CondFList_Fact]
+                                      ) [CondTerm]
+                                    ) [Condition_Term]
+                                  ) [Condition]
+                                ) [Expr_BasicExpr]
+                              ) [Statement_Print]
+                            ) [StatementList_More]
+                            Statement_Break(
+                            ) [Statement_Break]
+                          ) [StatementList_More]
+                        ) [CaseList_More]
+                        CaseValue_Number(
+                         5
+                        ) [CaseValue_Number]
+                        StatementList_More(
+                          StatementList_More(
+                            StatementList_More(
+                              StatementList_Empty(
+                              ) [StatementList_Empty]
+                              Statement_Print(
+                                Expr_BasicExpr(
+                                  Condition(
+                                    Condition_Term(
+                                      CondTerm(
+                                        CondFList_Fact(
+                                          CondFact_Basic(
+                                            BasicExpr_Term(
+                                              Term_Single(
+                                                Factor_Num(
+                                                 5
+                                                ) [Factor_Num]
+                                              ) [Term_Single]
+                                            ) [BasicExpr_Term]
+                                          ) [CondFact_Basic]
+                                        ) [CondFList_Fact]
+                                      ) [CondTerm]
+                                    ) [Condition_Term]
+                                  ) [Condition]
+                                ) [Expr_BasicExpr]
+                              ) [Statement_Print]
+                            ) [StatementList_More]
+                            Statement_Designator(
+                              DesignatorStatement_Assign(
+                                Designator(
+                                  DesignatorName(
+                                   i
+                                  ) [DesignatorName]
+                                  DesignatorMore_Empty(
+                                  ) [DesignatorMore_Empty]
+                                ) [Designator]
+                                Assignop_Assign(
+                                ) [Assignop_Assign]
+                                Expr_BasicExpr(
+                                  Condition(
+                                    Condition_Term(
+                                      CondTerm(
+                                        CondFList_Fact(
+                                          CondFact_Basic(
+                                            BasicExpr_Addop(
+                                              BasicExpr_Term(
+                                                Term_Single(
+                                                  Factor_Design(
+                                                    Designator(
+                                                      DesignatorName(
+                                                       i
+                                                      ) [DesignatorName]
+                                                      DesignatorMore_Empty(
+                                                      ) [DesignatorMore_Empty]
+                                                    ) [Designator]
+                                                  ) [Factor_Design]
+                                                ) [Term_Single]
+                                              ) [BasicExpr_Term]
+                                              Addop_Plus(
+                                              ) [Addop_Plus]
+                                              Term_Single(
+                                                Factor_Num(
+                                                 2
+                                                ) [Factor_Num]
+                                              ) [Term_Single]
+                                            ) [BasicExpr_Addop]
+                                          ) [CondFact_Basic]
+                                        ) [CondFList_Fact]
+                                      ) [CondTerm]
+                                    ) [Condition_Term]
+                                  ) [Condition]
+                                ) [Expr_BasicExpr]
+                              ) [DesignatorStatement_Assign]
+                            ) [Statement_Designator]
+                          ) [StatementList_More]
+                          Statement_Continue(
+                          ) [Statement_Continue]
+                        ) [StatementList_More]
+                      ) [CaseList_More]
+                      CaseValue_Number(
+                       6
+                      ) [CaseValue_Number]
+                      StatementList_More(
+                        StatementList_Empty(
+                        ) [StatementList_Empty]
+                        Statement_Print(
+                          Expr_BasicExpr(
+                            Condition(
+                              Condition_Term(
+                                CondTerm(
+                                  CondFList_Fact(
+                                    CondFact_Basic(
+                                      BasicExpr_Term(
+                                        Term_Single(
+                                          Factor_Num(
+                                           6
+                                          ) [Factor_Num]
+                                        ) [Term_Single]
+                                      ) [BasicExpr_Term]
+                                    ) [CondFact_Basic]
+                                  ) [CondFList_Fact]
+                                ) [CondTerm]
+                              ) [Condition_Term]
+                            ) [Condition]
+                          ) [Expr_BasicExpr]
+                        ) [Statement_Print]
+                      ) [StatementList_More]
+                    ) [CaseList_More]
+                    CaseValue_Number(
+                     9
+                    ) [CaseValue_Number]
+                    StatementList_More(
+                      StatementList_Empty(
+                      ) [StatementList_Empty]
+                      Statement_Print(
+                        Expr_BasicExpr(
+                          Condition(
+                            Condition_Term(
+                              CondTerm(
+                                CondFList_Fact(
+                                  CondFact_Basic(
+                                    BasicExpr_Term(
+                                      Term_Single(
+                                        Factor_Num(
+                                         9
+                                        ) [Factor_Num]
+                                      ) [Term_Single]
+                                    ) [BasicExpr_Term]
+                                  ) [CondFact_Basic]
+                                ) [CondFList_Fact]
+                              ) [CondTerm]
+                            ) [Condition_Term]
+                          ) [Condition]
+                        ) [Expr_BasicExpr]
+                      ) [Statement_Print]
+                    ) [StatementList_More]
+                  ) [CaseList_More]
+                ) [Statement_Switch]
+              ) [StatementList_More]
+              Statement_Print(
+                Expr_BasicExpr(
+                  Condition(
+                    Condition_Term(
+                      CondTerm(
+                        CondFList_Fact(
+                          CondFact_Basic(
+                            BasicExpr_Term(
+                              Term_Single(
+                                Factor_Design(
+                                  Designator(
+                                    DesignatorName(
+                                     eol
+                                    ) [DesignatorName]
+                                    DesignatorMore_Empty(
+                                    ) [DesignatorMore_Empty]
+                                  ) [Designator]
+                                ) [Factor_Design]
+                              ) [Term_Single]
+                            ) [BasicExpr_Term]
+                          ) [CondFact_Basic]
+                        ) [CondFList_Fact]
+                      ) [CondTerm]
+                    ) [Condition_Term]
+                  ) [Condition]
+                ) [Expr_BasicExpr]
+              ) [Statement_Print]
+            ) [StatementList_More]
+          ) [Statement_Block]
+        ) [Statement_For]
+      ) [StatementList_More]
+    ) [MethodDecl]
+  ) [MethodDeclList_More]
+) [Program]
+INFO  13:16:17,330 - =====================================================================
+INFO  13:16:17,346 - Na liniji 5: Deklarisana konstanta jedan
+INFO  13:16:17,346 - Na liniji 7: Deklarisana globalna promenljiva i
+INFO  13:16:17,346 - Na liniji 8: Deklarisana globalna promenljiva ibool
+INFO  13:16:17,346 - Na liniji 10: Deklarisan globalni niz  niz
+INFO  13:16:17,346 - Na liniji 13: Obrada funkcije: sum
+INFO  13:16:17,346 - Na liniji 13: Deklarisan formalni parametar  z
+INFO  13:16:17,346 - Na liniji 13: Deklarisan formalni parametar  d
+INFO  13:16:17,346 - Na liniji 15: Koriscenje formalnog parametra z
+INFO  13:16:17,346 - Na liniji 15: Koriscenje formalnog parametra d
+INFO  13:16:17,347 - Na liniji 18: Obrada funkcije: inkrement
+INFO  13:16:17,347 - Na liniji 18: Deklarisan formalni parametar  a
+INFO  13:16:17,347 - Na liniji 18: Deklarisan formalni parametar  inc
+INFO  13:16:17,347 - Na liniji 20: Koriscenje formalnog parametra inc
+INFO  13:16:17,347 - Na liniji 21: Koriscenje formalnog parametra inc
+INFO  13:16:17,347 - Na liniji 21: Koriscenje formalnog parametra a
+INFO  13:16:17,347 - Na liniji 23: Koriscenje formalnog parametra a
+INFO  13:16:17,347 - Na liniji 26: Obrada funkcije: verify
+INFO  13:16:17,347 - Na liniji 31: Obrada void funkcije: main
+INFO  13:16:17,347 - Na liniji 48: Pristup elementu niza niz[Kind : 5 ]
+INFO  13:16:17,347 - Na liniji 49: Pristup elementu niza niz[Kind : 5 ]
+INFO  13:16:17,347 - Na liniji 50: Pristup elementu niza niz[Kind : 5 ]
+INFO  13:16:17,347 - Na liniji 50: Pristup elementu niza niz[Kind : 5 ]
+INFO  13:16:17,347 - Na liniji 50: Pristup elementu niza niz[Kind : 5 ]
+INFO  13:16:17,347 - Na liniji 51: Pristup elementu niza niz[Kind : 5 ]
+INFO  13:16:17,347 - Na liniji 51: Pronadjen poziv globalne funkcije verify
+INFO  13:16:17,347 - Na liniji 67: Pronadjen poziv globalne funkcije verify
+INFO  13:16:17,347 - Na liniji 70: Pristup elementu niza niz[Kind : 5 ]
+INFO  13:16:17,347 - Na liniji 71: Pristup elementu niza niz[Kind : 5 ]
+INFO  13:16:17,347 - Na liniji 72: Pristup elementu niza niz[Kind : 5 ]
+INFO  13:16:17,347 - Na liniji 75: Pristup elementu niza niz[Kind : 5 ]
+INFO  13:16:17,347 - Na liniji 75: Pristup elementu niza niz[Kind : 5 ]
+INFO  13:16:17,347 - Na liniji 75: Pristup elementu niza niz[Kind : 5 ]
+INFO  13:16:17,347 - Na liniji 82: Pristup elementu niza niz[Kind : 5 ]
+INFO  13:16:17,347 - Na liniji 83: Pronadjen poziv globalne funkcije verify
+INFO  13:16:17,348 - =====================================================================
+INFO  13:16:17,357 - Generisanje uspesno zavrseno!

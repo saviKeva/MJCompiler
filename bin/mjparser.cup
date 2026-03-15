@@ -1,0 +1,292 @@
+package rs.ac.bg.etf.pp1;
+
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+import rs.ac.bg.etf.pp1.ast.*;
+
+parser code {:
+    boolean errorDetected;
+    Logger log = Logger.getLogger(getClass());
+
+    public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+      done_parsing();
+      report_error(message, info);
+    }
+  
+    public void syntax_error(Symbol cur_token) {
+        report_error("\nSintaksna greska", cur_token);
+    }
+  
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+        report_fatal_error("Fatalna greska, parsiranje se ne moze nastaviti", cur_token);
+    }
+
+    public void report_error(String message, Object info) {
+    	errorDetected = true;
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.error(msg.toString());
+    }
+:}
+
+init with {: errorDetected = false; :};
+scan with {:
+	Symbol s = this.getScanner().next_token();
+	if (s != null && s.value != null) 
+		log.info(s.toString() + " " + s.value.toString());
+	return s;
+:};
+
+/* Terminali */
+terminal PROG, LBRACE, RBRACE, CONST, SEMI, ASSIGN, COMMA, LBRACKET, RBRACKET, VOID, LPAREN, RPAREN, COLON;
+terminal RETURN, READ, PRINT, INC, DEC, MINUS, NEW, PLUS, MUL, DIV, REM, DOT, ENUM, CLASS, IF, ELSE, FOR, SWITCH, CASE, BREAK, CONTINUE, OR, AND;
+terminal EQUAL, NOTEQUAL, GRATHER, GRATHEREQUAL, LESS, LESSEQUAL, QUESTION, LEN;
+terminal String IDENT;
+terminal Integer NUMBER, BOOL;
+terminal Character CHARACTER;
+
+/* Neterminali - Bez tipova */
+nonterminal DeclList, DeclPart, MethodDeclList, MethodDecl;
+nonterminal ConstDecl, ConstList;
+nonterminal VarDecl, VarList, VarPart, VarDeclListRec;
+nonterminal EnumDecl, EnumList;
+nonterminal FormPars, FormParamList, FormParam;
+nonterminal StatementList, Statement, CaseList, ForInit, ForAfter, OptCondition;
+nonterminal DesignatorStatement;
+nonterminal Assignop, Addop, Mulop, Relop;
+nonterminal DesignatorEnumName, DesignatorArrayName;
+nonterminal ForTerm, Else;
+nonterminal OptActPars, ActParsBegin, ActPars;
+nonterminal DesignE, EnumName;
+nonterminal TernaryStart, TernaryMiddle;
+
+/* Neterminali - Sa tipovima iz Symbol Table */
+nonterminal rs.etf.pp1.symboltable.concepts.Obj ProgramName, Program, Constant, MethodName, Designator, DesignatorName, DesignatorMore;
+nonterminal EnumPart;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Type, Condition, CondTerm, CondFact, BasicExpr, Expr, Term, Factor,CondTermL,CondFactL ;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj CaseValue;
+nonterminal SwitchStart;
+
+/* Resavanje dangling else */
+precedence left ELSE;
+
+/* --- Gramatika --- */
+
+Program ::= (Program) PROG ProgramName:pName DeclList LBRACE MethodDeclList RBRACE;
+
+ProgramName ::= (ProgramName) IDENT:progName;
+
+DeclList ::= (DeclarationList_Part) DeclList DeclPart
+            | (DeclarationList_Empty) /* epsilon */
+            ;
+
+DeclPart ::= (DeclPart_Const) ConstDecl
+           | (DeclPart_Var) VarDecl
+           | (DeclPart_Enum) EnumDecl
+           ;
+
+/* Nivo A: Deklaracije */
+ConstDecl ::= (ConstDecl_OK) CONST Type ConstList SEMI
+			 | (ErrorConstDeclSemi) CONST error SEMI:err
+        {: parser.report_error("Uspesan oporavak od greske pri definiciji globalne konstante na liniji " + errleft, null); :}
+;
+
+ConstList ::= (ConstList_More) ConstList COMMA Constant 
+			| (ConstList_Single) Constant
+			| (ErrorConstDeclComma) error:err
+        {: parser.report_error("Uspesan oporavak od greske pri definiciji globalne konstante na liniji " + errleft, null); :}
+;
+
+Constant ::= (Constant_Number)IDENT:constName ASSIGN NUMBER 
+		   | (Constant_Char)IDENT:constName ASSIGN CHARACTER 
+		   | (Constant_Bool)IDENT:constName ASSIGN BOOL;
+
+VarDecl ::= (VarDecl_OK) Type VarList SEMI
+		   | (ErrorVarDeclSemi) error SEMI:err
+        {: parser.report_error("Uspesan oporavak od greske pri definiciji promenljive na liniji " + errleft, null); :}
+;
+
+VarList ::= (VarList_More) VarList COMMA VarPart 
+		  | (VarList_Single) VarPart;
+
+VarPart ::= (VarPart_Scalar) IDENT:varName
+		  | (VarPart_Array) IDENT:varName LBRACKET RBRACKET
+		  | (ErrorVarDeclComma) error:err
+        {: parser.report_error("Uspesan oporavak od greske pri definiciji promenljive na liniji " + errleft, null); :}
+;
+
+EnumDecl ::= (EnumDecl) ENUM EnumName LBRACE EnumList RBRACE;
+
+EnumName ::= (EnumName) IDENT:enumName;
+EnumList ::= (EnumList_More) EnumList COMMA EnumPart 
+		   | (EnumList_Single) EnumPart;
+
+EnumPart ::= (EnumPart_Value) IDENT:fieldName ASSIGN NUMBER
+		   | (EnumPart_NoValue) IDENT:fieldName;
+
+Type ::= (Type) IDENT:typeName;
+
+/* Metode */
+MethodDeclList ::= (MethodDeclList_More) MethodDeclList MethodDecl 
+				 | (MethodDeclList_Empty) /* epsilon */;
+
+MethodDecl ::= (MethodDecl) MethodName:mName LPAREN FormPars RPAREN VarDeclListRec LBRACE StatementList RBRACE;
+
+MethodName ::= (TypeMethodName) Type:returnType IDENT:methodName
+				| (VoidMethodName) VOID IDENT:methodName;
+
+VarDeclListRec ::= (VarDeclListRec_More) VarDeclListRec VarDecl
+				 | (VarDeclListRec_Empty) /* epsilon */;
+
+FormPars ::= (FormalParameters_List) FormParamList
+		   | (FormalParameters_Empty) /* epsilon */;
+
+FormParamList ::= (FormParamList_More) FormParamList COMMA FormParam
+			    | (FormParamList_Single) FormParam;
+
+FormParam ::= (FormParam_Scalar) Type:paramType IDENT:paramName
+		    | (FormParam_Array) Type:paramType IDENT:paramName LBRACKET RBRACKET
+		    | (ErrorFormParameter) error:err
+        {: parser.report_error("Uspesan oporavak od greske pri definiciji parametara metode na liniji " + errleft, null); :}
+;
+
+/* Statementi */
+StatementList ::= (StatementList_More) StatementList Statement 
+				| (StatementList_Empty) /* epsilon */;
+
+Statement ::= (Statement_Designator) DesignatorStatement SEMI
+            | (Statement_IfElse) IF LPAREN Condition RPAREN Statement Else Statement
+            | (Statement_If) IF LPAREN Condition RPAREN Statement
+            | (Statement_Break) BREAK SEMI
+            | (Statement_Continue) CONTINUE SEMI
+            | (Statement_ReturnExpr) RETURN Expr SEMI
+            | (Statement_Return) RETURN SEMI
+            | (Statement_Read) READ LPAREN Designator RPAREN SEMI
+            | (Statement_PrintWidth) PRINT LPAREN Expr COMMA NUMBER RPAREN SEMI
+            | (Statement_Print) PRINT LPAREN Expr RPAREN SEMI
+            | (Statement_Switch) SWITCH LPAREN Expr RPAREN SwitchStart LBRACE CaseList RBRACE
+            | (Statement_For) ForTerm LPAREN ForInit SEMI OptCondition SEMI ForAfter RPAREN Statement
+            | (Statement_Block) LBRACE StatementList RBRACE
+            | (ErrorDesignAssign) error SEMI:err
+        {: parser.report_error("Uspesan oporavak od greske pri konstrukciji iskaza dodele na liniji " + errleft, null); :}
+;
+
+SwitchStart ::= (SwitchStart);
+
+Else ::= (Else) ELSE;
+
+ForTerm ::= (ForTerm) FOR;
+
+CaseList ::= (CaseList_More) CaseList CASE CaseValue COLON StatementList
+		  | (CaseList_Empty) /* epsilon */;
+		  
+CaseValue ::= (CaseValue_Number) NUMBER
+		   | (CaseValue_Design) Designator;
+
+ForInit ::= (ForInit_Yes) DesignatorStatement
+		   | (ForInit_No) /* epsilon */;
+
+OptCondition ::= (OptCondition_Yes) Condition
+			   | (OptCondition_No) /* epsilon */;
+			   
+ForAfter ::= (ForAfter_Yes) DesignatorStatement
+			| (ForAfter_No) /* epsilon */;
+
+DesignatorStatement ::= (DesignatorStatement_Assign) Designator:design Assignop Expr
+					  | (DesignatorStatement_Call) Designator:func LPAREN OptActPars RPAREN
+                      | (DesignatorStatement_Inc) Designator:design INC
+                      | (DesignatorStatement_Dec) Designator:design DEC
+                      ;
+
+OptActPars ::= (ActParameters) ActParsBegin ActPars
+	          | (NoActParameters) ActParsBegin
+;              
+
+ActParsBegin ::= (ActParsBegin) /* epsilon */;
+
+ActPars ::= (SingleActParam) Expr:e
+			| (ActParamList) ActPars COMMA Expr:e
+;
+
+/* Uslovi i Izrazi */
+
+Condition ::=(Condition)
+	CondTermL
+;
+
+CondTermL ::= (Condition_OR) CondTermL OR CondTerm
+            | (Condition_Term) CondTerm
+            | (ErrorCondition) error:err
+        {: parser.report_error("Uspesan oporavak od greske pri logickom izrazu if naredbe na liniji " + errleft, null); :}
+;
+
+CondTerm ::=(CondTerm)
+			CondFactL
+ ;
+CondFactL ::= (CondFSingle_And) CondFactL AND CondFact
+           | (CondFList_Fact) CondFact
+           ;
+
+CondFact ::= (CondFact_Relop) BasicExpr Relop BasicExpr
+           | (CondFact_Basic) BasicExpr
+           ;
+
+/* Ternarni operator */
+Expr ::= (Expr_Ternary) Condition TernaryStart QUESTION Expr TernaryMiddle COLON Expr
+       | (Expr_BasicExpr) Condition
+       ;
+    
+/* Markeri da lakse pratim u Code Genrator - u za ExprTermary*/
+   
+TernaryStart ::= (TernaryStart);
+TernaryMiddle ::= (TernaryMiddle);
+
+
+
+BasicExpr ::= (BasicExpr_Addop) BasicExpr Addop Term
+            | (BasicExpr_Term) Term
+            | (BasicExpr_Unary) MINUS Term
+            ;
+
+Term ::= (Term_Mul_Fact) Term Mulop Factor
+       | (Term_Single) Factor
+       ;
+
+
+Factor ::= (Factor_Design) Designator:design
+            | (Factor_ActPars) Designator:func LPAREN OptActPars RPAREN
+            | (Factor_Num) NUMBER
+            | (Factor_Char) CHARACTER
+            | (Factor_Bool) BOOL
+            | (Factor_New_Array) NEW Type LBRACKET Expr RBRACKET
+            | (Factor_Paren) LPAREN Expr RPAREN
+            ;
+
+Designator ::= (Designator) DesignatorName DesignatorMore
+			 ;
+
+DesignatorName ::= (DesignatorName) IDENT:designName;
+
+DesignatorMore ::= (DesignatorMore_Array) LBRACKET Expr RBRACKET
+                 | (DesignatorMore_Field) DOT IDENT:fieldName
+                 | (DesignatorMore_Len) DOT LEN
+                 | (DesignatorMore_Empty)
+                 ;
+
+/* Operatori */
+Assignop ::= (Assignop_Assign) ASSIGN;
+
+Relop ::= (Relop_Equal) EQUAL
+        | (Relop_NotEqual) NOTEQUAL 
+        | (Relop_Greater) GRATHER 
+        | (Relop_GreaterEq) GRATHEREQUAL
+        | (Relop_Less) LESS
+        | (Relop_LessEq) LESSEQUAL;
+
+Addop ::= (Addop_Plus) PLUS
+		| (Addop_Minus) MINUS;
+
+Mulop ::= (Mulop_Mul) MUL 
+        | (Mulop_Div) DIV 
+        | (Mulop_Rem) REM;

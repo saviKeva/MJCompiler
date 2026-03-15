@@ -1,0 +1,306 @@
+test304:
+R1: 1 2 3 
+R2: 2 4 6 
+R3: 3 6 9 
+T
+P
+200
+400
+V
+5D
+
+test301: (za ulazne podatke 10,20,30)
+
+Line 263:      [java]    40: print       9
+	Line 269:      [java]    47: bprint      
+	Line 345:      [java]    96: print       6
+	Line 351:      [java]   103: bprint      
+	Line 361:      [java]   110: print       12
+	Line 367:      [java]   117: bprint      
+	Line 411:      [java]   162: bprint      b
+	Line 417:      [java]   169: bprint      
+	Line 431:      [java]   178: bprint      c
+	Line 437:      [java]   185: bprint      
+	Line 457:      [java]   195: print       97
+	Line 465:      [java]   201: print       3
+	Line 473:      [java]   207: print       3
+	Line 533:      [java]   245: print       10
+	Line 563:      [java]   278: print       20
+	Line 579:      [java]   302: print       50
+	Line 595:      [java]   332: bprint      +
+
+test302: (za ulazne podatke 10,20,30):
+
+[java]   115: print       0
+	Line  577:      [java]   215: print       1
+	Line  677:      [java]   292: print       65
+	Line  685:      [java]   312: bprint      
+	Line  991:      [java]   422: print       -4
+	Line 1033:      [java]   447: bprint      
+	Line 1083:      [java]   470: print       60
+	Line 1105:      [java]   509: print       0
+	Line 1135:      [java]   509: print       1
+	Line 1165:      [java]   509: print       2
+	Line 1193:      [java]   519: bprint      
+	Line 1251:      [java]   530: print       60
+	Line 1261:      [java]    73: bprint      v
+	Line 1283:      [java]   552: bprint      f
+	Line 1317:      [java]   603: print       1
+	Line 1325:      [java]   703: bprint      
+	Line 1379:      [java]   630: print       2
+	Line 1387:      [java]   703: bprint      
+	Line 1435:      [java]   618: print       3
+	Line 1443:      [java]   630: print       2
+	Line 1451:      [java]   703: bprint      
+	Line 1523:      [java]   703: bprint      
+	Line 1583:      [java]   645: print       5
+	Line 1663:      [java]   703: bprint      
+	Line 1735:      [java]   696: print       9
+	Line 1741:      [java]   703: bprint      
+	Line 1813:      [java]   703: bprint      
+program1: testira break, continue, for u for-u
+ 00c11c22c3ta4m
+
+test304:switch, propadanje, enumi, ternarni
+
+test306: propadanja u switch-u, enum u case-u
+1A2R
+
+test307:switch u switch-u + propadanja
+SUNK
+
+test308 - testira ternarni
+50 100 300 77 2 999 OK 13
+
+
+
+/* default switch */
+/*
+terminal DEFAULT;
+nonterminal OptDefault;
+"default"	{ return new_symbol(sym.DEFAULT, yytext());}
+| (Statement_Switch) SWITCH LPAREN Expr RPAREN SwitchStart LBRACE CaseList OptDefault RBRACE
+OptDefault ::= (Default_Yes) DEFAULT COLON StatementList
+			 | (Default_No) /* epsilon */
+			 ;
+
+private Stack<Boolean> defaultFoundStack = new Stack<>();
+/* SWITCH */
+	@Override
+	public void visit(SwitchStart switchStart) {
+		switchDepth++;
+		if (switchDepth > maxSwitchDepth)
+			maxSwitchDepth = switchDepth;
+		switchValuesStack.push(new HashSet<>());
+		defaultFoundStack.push(false);
+	}
+
+	public void visit(Default_Yes defaultYes) {
+		if (defaultFoundStack.isEmpty()) {
+			// Sigurnosna provera ako se default nađe van switch-a
+			report_error("Greska: Default grana se nalazi van switch bloka!", defaultYes);
+			return;
+		}
+
+		if (defaultFoundStack.peek()) {
+			report_error("Greska: Switch iskaz vec sadrzi default granu na ovom nivou!", defaultYes);
+		} else {
+			// Označavamo da je default pronađen na ovom nivou
+			defaultFoundStack.pop();
+			defaultFoundStack.push(true);
+		}
+	}
+
+	@Override
+	public void visit(Statement_Switch switchStmt) {
+		// Ovde proveravamo tip izraza switch(Expr)
+		Struct exprType = switchStmt.getExpr().struct;
+		if (exprType != Tab.intType && exprType.getKind() != Struct.Enum) {
+			report_error("Izraz u switch naredbi mora biti tipa int", switchStmt);
+		}
+
+		// Čišćenje steka pri izlasku
+		switchDepth--;
+		if (!switchValuesStack.isEmpty()) {
+			switchValuesStack.pop();
+		}
+
+		if (!defaultFoundStack.isEmpty()) {
+			defaultFoundStack.pop();
+		}
+	}
+
+	@Override
+	public void visit(CaseValue_Number caseNum) {
+		// Креирамо синтетички Obj.Con само за потребе генерације кода/дупликат провере
+		Obj o = new Obj(Obj.Con, "#case_num", Tab.intType);
+		o.setAdr(caseNum.getN1());
+		caseNum.obj = o; // <-- САД имаш Obj
+		// (опционо) report_info(...) ако желиш
+	}
+
+	@Override
+	public void visit(CaseValue_Design cv) {
+		Obj o = cv.getDesignator().obj;
+		if (o.getKind() != Obj.Con) {
+			report_error("Case vrednost mora biti constanta", cv);
+			cv.obj = Tab.noObj;
+			return;
+		}
+		boolean isInt = (o.getType() == Tab.intType);
+		boolean isEnum = (o.getType().getKind() == Struct.Enum);
+
+		if (!isInt && !isEnum) {
+			report_error("Case vrednost mora biti tipa int!", cv);
+			cv.obj = Tab.noObj;
+			return;
+		}
+		cv.obj = o;
+	}
+
+	@Override
+	public void visit(CaseList_More caseMore) {
+		Obj o = caseMore.getCaseValue().obj;
+		if (o == null || o == Tab.noObj || o.getKind() != Obj.Con) {
+			// Greska je već prijavljena u posetama CaseValue_*
+			return;
+		}
+
+		// Dozvoljavamo i int i enum tipove
+		boolean isValidType = (o.getType() == Tab.intType || o.getType().getKind() == Struct.Enum);
+
+		if (!isValidType) {
+			// Ova poruka se verovatno neće ni videti jer CaseValue to već filtrira,
+			// ali je dobra kao "backstop" provera.
+			return;
+		}
+		int value = o.getAdr();
+
+		if (!switchValuesStack.isEmpty()) {
+			HashSet<Integer> currentSet = switchValuesStack.peek();
+			if (currentSet.contains(value)) {
+				report_error("Duplirana case vrednost: " + value, caseMore);
+			} else {
+				currentSet.add(value);
+			}
+		}
+	}
+
+
+*/
+
+/*
+
+private static class SwitchCtx {
+		List<Integer> nextCaseFixups = new ArrayList<>();
+		List<Integer> breakFixups = new ArrayList<>();
+		int varAddr;
+	}
+	/*
+	 * Posto mogu imati switch unutar switch-a, svaki nivo dobija svoj SwitchCtx
+	 * objekat sa svojim listama skokova
+	 */
+
+	private Stack<SwitchCtx> switchStack = new Stack<>();
+	private int switchLevel = 0;
+
+	@Override
+	public void visit(SwitchStart s) {
+		/*
+		 * Kada udjem u Switch(x) vrednost X je vec na steku i treba mi slobodno mesto u
+		 * mem da sakrijem tu vrednost
+		 */
+		switchLevel++;
+		SwitchCtx ctx = new SwitchCtx();
+		int localCount = 0;
+		if (currentMethod != null) {
+			for (Obj o : currentMethod.getLocalSymbols())
+				localCount++;
+		}
+		ctx.varAddr = localCount + switchLevel; // treba mi slobodno mesto u mem da sakrijem tu vrednost
+		Code.put(Code.store); // opcode za store
+		Code.put(ctx.varAddr);// Uzimaš X sa steka i upisuješ ga na tu adresu
+		switchStack.push(ctx);
+	}
+
+	private void beginCaseTestWithIntValue(int caseVal) {
+		SwitchCtx ctx = switchStack.peek();
+		Code.put(Code.load); // Vraćaš sakriveni X na stek
+		Code.put(ctx.varAddr);
+		Code.loadConst(caseVal);// stavlja na stek vrednost case-a
+		Code.putFalseJump(Code.eq, 0); // Ako X NIJE jednako caseVal, skoči!
+		ctx.nextCaseFixups.add(Code.pc - 2); // Pamtiš adresu tog skoka. Ako test ne prođe, program beži na sledeći case
+	}
+
+	@Override
+	public void visit(CaseValue_Number c) {
+		SwitchCtx ctx = switchStack.peek();
+		int jumpToBody = -1;
+		if (!ctx.nextCaseFixups.isEmpty()) {
+			/*
+			 * case 1: // (Prethodni case) print('1'); case 2: // (Trenutni case u kojem se
+			 * nalazi tvoj vizitor) print('2'); Mi ne želimo da on ponovo radi test (jer on
+			 * već "propada" unutra).
+			 * 
+			 * Zato mu kažemo: "Preskoči test za dvojku i idi pravo na print('2')!".
+			 */
+			Code.putJump(0); /*ti koji si izvrsio case 1 a nemas break
+			skoci preko testa za x==2 za case 2, ne treba da proveravas vec samo
+			da utones u telo za case2 
+			*/
+			jumpToBody = Code.pc - 2;
+			/*Ti koji nisi bio jedinica, sleti OVDE. Sad ćemo da vidimo da li si dvojka*/
+			Code.fixup(ctx.nextCaseFixups.remove(ctx.nextCaseFixups.size() - 1));
+		}
+		beginCaseTestWithIntValue(c.getN1());
+		/*Sada pišeš instrukcije: load X, loadConst 2, if_ne skoči_na_sledeći.
+
+Ovde Grupacija B proverava svoju sudbinu. Ako su 2, nastavljaju peške nadole. Ako nisu, beže dalje.*/
+		if (jumpToBody != -1)
+			Code.fixup(jumpToBody);
+		/*Sada zoveš onu Grupaciju A (koja je preskočila test u Koraku 1) da sleti ovde.
+
+Rezultat: I oni koji su "propali" odozgo, i oni koji su upravo "prošli test" za dvojku, sada stoje na početku tela koda za case 2.*/
+	}
+	
+	public void visit(Default_Yes def) {
+		SwitchCtx ctx = switchStack.peek();
+		
+		if(!ctx.nextCaseFixups.isEmpty()) {
+			Code.fixup(ctx.nextCaseFixups.remove(ctx.nextCaseFixups.size()-1));
+		}
+	}
+
+	@Override
+	public void visit(Statement_Switch sw) {
+	    SwitchCtx ctx = switchStack.pop();
+	    
+	    // 1. Ako je postojao Default_Yes, on je već ispraznio nextCaseFixups listu.
+	    // 2. Ako je Default_No (nema defaulta), lista NIJE prazna. 
+	    //    Taj skok (iz zadnjeg case-a) mora da preskoči sve i ode na KRAJ switch-a.
+	    if (!ctx.nextCaseFixups.isEmpty()) {
+	        Code.fixup(ctx.nextCaseFixups.remove(ctx.nextCaseFixups.size() - 1));
+	    }
+
+	    // 3. Tek sada popravljamo sve BREAK-ove. 
+	    // Oni svi dolaze na ovu istu adresu (kraj switch-a).
+	    for (int addr : ctx.breakFixups)
+	        Code.fixup(addr);
+	        
+	    switchLevel--;
+	}
+
+	@Override
+	public void visit(Statement_Break stmt) {
+		Code.putJump(0);
+		int jumpAddr = Code.pc - 2;
+		if (!switchStack.isEmpty())
+			switchStack.peek().breakFixups.add(jumpAddr);
+		else if (!forBreakStack.isEmpty())
+			forBreakStack.peek().add(jumpAddr);
+		
+	}
+	
+
+
+*/
